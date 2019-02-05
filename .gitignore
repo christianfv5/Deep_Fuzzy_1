@@ -1,0 +1,6 @@
+# ignore cache and data entries
+*/cache
+*/data
+
+# notebook check points
+.ipynb_checkpoints/
