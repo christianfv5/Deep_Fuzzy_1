@@ -1,6 +1,13 @@
+# folders
+report/
+
 # ignore cache and data entries
 */cache
 */data
+*/__pycache__/
 
 # notebook check points
 .ipynb_checkpoints/
+
+# gk code
+GK.py
