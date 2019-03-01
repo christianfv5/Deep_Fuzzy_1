@@ -2,6 +2,7 @@
 report/
 
 # ignore cache and data entries
+*/saved_models
 */cache
 */data
 */__pycache__/
