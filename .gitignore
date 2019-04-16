@@ -1,14 +1,13 @@
 # folders
-report/
+reports/
 
 # ignore cache and data entries
-*/saved_models
-*/cache
-*/data
+*/saved_models/
+*/cache/
+*/data/
+*/figures/
+*/csv/
 */__pycache__/
 
 # notebook check points
 .ipynb_checkpoints/
-
-# gk code
-GK.py
