@@ -1,8 +1,13 @@
-# 2019 Research
+# Deep Convolutional Neuro-Fuzzy Inference System
 
-This repository contains a collection of python code and jupyter notebooks I wrote during my work term as a research assistant at the University of Alberta under the supervision of Dr. Scott Dick.
+This repository contains the source code for the *Deep Convolutional
+Neuro-Fuzzy Inference System* paper I co-authored with Mojtaba
+Yeganejou and Dr. Scott Dick.
 
-The purpose of the research is to investigate the efficacy of a novel type of neural network that combines deep learning and fuzzy logic. The goal is to create a system that combines the classification power of deep convolutional neural networks and the interpretability of adaptive neuro-fuzzy systems.
+The paper investigates a new type of neural network that utilizes
+neuro-fuzzy systems to create more interpretable models. Conventional
+neural network layers are used for feature extraction, and a
+neuro-fuzzy classifier to output the class probabilities.
 
 ## Getting Started
 
@@ -11,16 +16,28 @@ The purpose of the research is to investigate the efficacy of a novel type of ne
 * Jupyter Notebook
 * Keras
 * TensorFlow
+* NumPy
 * SciKit-Learn
 * SciKit-Fuzzy
 * UMAP-Learn
-* possibly more?
+* H5Py
+* iNNvestigate
 
-The easiest way to install all of the dependencies is to use a conda environment. Installing umap-learn using conda-forge will change the NumPy version and possibly cause issues with TensorFlow.
+The majority of the code is written in Jupyter Notebooks to make
+sharing results and the corresponding code easier.
+
+## Relevant Code
+
+The has been uploaded in the state it was written and therefore is
+unorganized. The purpose of this section is to point out parts of the
+code most relevant the paper.
+
+TODO
 
 ## Authors
 
 * **Ryan Kluzinski** - *Initial work* - [rkluzinski](https://github.com/rkluzinski)
+* ** Mojtaba Yeganejou** - *GK Clustering Code*
 
 ## License
 
