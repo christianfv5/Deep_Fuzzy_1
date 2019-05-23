@@ -1,0 +1,1307 @@
+C:\Users\YEG\Anaconda3\envs\tf-gpu\python.exe D:/PycharmProjects/NIPS_1_DNFIS/FashionMNIST.py
+Using TensorFlow backend.
+(28, 28, 1)
+2019-03-07 21:43:20.386021: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 970 major: 5 minor: 2 memoryClockRate(GHz): 1.253
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.78GiB
+2019-03-07 21:43:20.386269: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-03-07 21:43:20.725585: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-07 21:43:20.725730: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:971]      0 
+2019-03-07 21:43:20.725826: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:984] 0:   N 
+2019-03-07 21:43:20.726001: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3507 MB memory) -> physical GPU (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0, compute capability: 5.2)
+Learning rate:  0.001
+Epoch 1/200
+Learning rate:  0.001
+ - 73s - loss: 1.1524 - acc: 0.7653 - val_loss: 1.0950 - val_acc: 0.7630
+
+Epoch 00001: val_acc improved from -inf to 0.76300, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.001.h5
+HELLO 1 : 0.763
+Epoch 2/200
+Learning rate:  0.001
+ - 64s - loss: 0.7916 - acc: 0.8479 - val_loss: 0.8332 - val_acc: 0.8244
+
+Epoch 00002: val_acc improved from 0.76300 to 0.82440, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.002.h5
+HELLO 2 : 0.8244
+Epoch 3/200
+Learning rate:  0.001
+ - 63s - loss: 0.6748 - acc: 0.8661 - val_loss: 0.9347 - val_acc: 0.7578
+
+Epoch 00003: val_acc did not improve from 0.82440
+HELLO 3 : 0.7578
+Epoch 4/200
+Learning rate:  0.001
+ - 63s - loss: 0.6088 - acc: 0.8752 - val_loss: 0.6794 - val_acc: 0.8331
+
+Epoch 00004: val_acc improved from 0.82440 to 0.83310, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.004.h5
+HELLO 4 : 0.8331
+Epoch 5/200
+Learning rate:  0.001
+ - 63s - loss: 0.5596 - acc: 0.8814 - val_loss: 0.8576 - val_acc: 0.7848
+
+Epoch 00005: val_acc did not improve from 0.83310
+HELLO 5 : 0.7848
+Epoch 6/200
+Learning rate:  0.001
+ - 63s - loss: 0.5257 - acc: 0.8864 - val_loss: 0.6471 - val_acc: 0.8419
+
+Epoch 00006: val_acc improved from 0.83310 to 0.84190, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.006.h5
+HELLO 6 : 0.8419
+Epoch 7/200
+Learning rate:  0.001
+ - 64s - loss: 0.4956 - acc: 0.8904 - val_loss: 0.5365 - val_acc: 0.8743
+
+Epoch 00007: val_acc improved from 0.84190 to 0.87430, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.007.h5
+HELLO 7 : 0.8743
+Epoch 8/200
+Learning rate:  0.001
+ - 64s - loss: 0.4742 - acc: 0.8933 - val_loss: 0.5193 - val_acc: 0.8764
+
+Epoch 00008: val_acc improved from 0.87430 to 0.87640, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.008.h5
+HELLO 8 : 0.8764
+Epoch 9/200
+Learning rate:  0.001
+ - 63s - loss: 0.4531 - acc: 0.8964 - val_loss: 0.6940 - val_acc: 0.8124
+
+Epoch 00009: val_acc did not improve from 0.87640
+HELLO 9 : 0.8124
+Epoch 10/200
+Learning rate:  0.001
+ - 63s - loss: 0.4403 - acc: 0.8988 - val_loss: 0.7160 - val_acc: 0.7847
+
+Epoch 00010: val_acc did not improve from 0.87640
+HELLO 10 : 0.7847
+Epoch 11/200
+Learning rate:  0.001
+ - 63s - loss: 0.4258 - acc: 0.9018 - val_loss: 0.4857 - val_acc: 0.8800
+
+Epoch 00011: val_acc improved from 0.87640 to 0.88000, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.011.h5
+HELLO 11 : 0.88
+Epoch 12/200
+Learning rate:  0.001
+ - 63s - loss: 0.4182 - acc: 0.9022 - val_loss: 0.4557 - val_acc: 0.8889
+
+Epoch 00012: val_acc improved from 0.88000 to 0.88890, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.012.h5
+HELLO 12 : 0.8889
+Epoch 13/200
+Learning rate:  0.001
+ - 63s - loss: 0.4018 - acc: 0.9046 - val_loss: 0.4826 - val_acc: 0.8766
+
+Epoch 00013: val_acc did not improve from 0.88890
+HELLO 13 : 0.8766
+Epoch 14/200
+Learning rate:  0.001
+ - 63s - loss: 0.3970 - acc: 0.9058 - val_loss: 0.5236 - val_acc: 0.8635
+
+Epoch 00014: val_acc did not improve from 0.88890
+HELLO 14 : 0.8635
+Epoch 15/200
+Learning rate:  0.001
+ - 63s - loss: 0.3869 - acc: 0.9072 - val_loss: 0.5136 - val_acc: 0.8660
+
+Epoch 00015: val_acc did not improve from 0.88890
+HELLO 15 : 0.866
+Epoch 16/200
+Learning rate:  0.001
+ - 64s - loss: 0.3761 - acc: 0.9097 - val_loss: 0.4440 - val_acc: 0.8893
+
+Epoch 00016: val_acc improved from 0.88890 to 0.88930, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.016.h5
+HELLO 16 : 0.8893
+Epoch 17/200
+Learning rate:  0.001
+ - 63s - loss: 0.3734 - acc: 0.9105 - val_loss: 0.4233 - val_acc: 0.8918
+
+Epoch 00017: val_acc improved from 0.88930 to 0.89180, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.017.h5
+HELLO 17 : 0.8918
+Epoch 18/200
+Learning rate:  0.001
+ - 63s - loss: 0.3664 - acc: 0.9118 - val_loss: 0.4147 - val_acc: 0.8961
+
+Epoch 00018: val_acc improved from 0.89180 to 0.89610, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.018.h5
+HELLO 18 : 0.8961
+Epoch 19/200
+Learning rate:  0.001
+ - 63s - loss: 0.3603 - acc: 0.9121 - val_loss: 0.5203 - val_acc: 0.8586
+
+Epoch 00019: val_acc did not improve from 0.89610
+HELLO 19 : 0.8586
+Epoch 20/200
+Learning rate:  0.001
+ - 64s - loss: 0.3567 - acc: 0.9127 - val_loss: 0.4393 - val_acc: 0.8860
+
+Epoch 00020: val_acc did not improve from 0.89610
+HELLO 20 : 0.886
+Epoch 21/200
+Learning rate:  0.001
+ - 64s - loss: 0.3501 - acc: 0.9144 - val_loss: 0.4414 - val_acc: 0.8869
+
+Epoch 00021: val_acc did not improve from 0.89610
+HELLO 21 : 0.8869
+Epoch 22/200
+Learning rate:  0.001
+ - 63s - loss: 0.3461 - acc: 0.9148 - val_loss: 0.4066 - val_acc: 0.8959
+
+Epoch 00022: val_acc did not improve from 0.89610
+HELLO 22 : 0.8959
+Epoch 23/200
+Learning rate:  0.001
+ - 63s - loss: 0.3378 - acc: 0.9177 - val_loss: 0.3632 - val_acc: 0.9124
+
+Epoch 00023: val_acc improved from 0.89610 to 0.91240, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.023.h5
+HELLO 23 : 0.9124
+Epoch 24/200
+Learning rate:  0.001
+ - 63s - loss: 0.3365 - acc: 0.9179 - val_loss: 0.4839 - val_acc: 0.8675
+
+Epoch 00024: val_acc did not improve from 0.91240
+HELLO 24 : 0.8675
+Epoch 25/200
+Learning rate:  0.001
+ - 63s - loss: 0.3354 - acc: 0.9173 - val_loss: 0.3985 - val_acc: 0.8933
+
+Epoch 00025: val_acc did not improve from 0.91240
+HELLO 25 : 0.8933
+Epoch 26/200
+Learning rate:  0.001
+ - 64s - loss: 0.3299 - acc: 0.9195 - val_loss: 0.4005 - val_acc: 0.9006
+
+Epoch 00026: val_acc did not improve from 0.91240
+HELLO 26 : 0.9006
+Epoch 27/200
+Learning rate:  0.001
+ - 63s - loss: 0.3249 - acc: 0.9202 - val_loss: 0.4551 - val_acc: 0.8756
+
+Epoch 00027: val_acc did not improve from 0.91240
+HELLO 27 : 0.8756
+Epoch 28/200
+Learning rate:  0.001
+ - 63s - loss: 0.3234 - acc: 0.9198 - val_loss: 0.3787 - val_acc: 0.9004
+
+Epoch 00028: val_acc did not improve from 0.91240
+HELLO 28 : 0.9004
+Epoch 29/200
+Learning rate:  0.001
+ - 63s - loss: 0.3210 - acc: 0.9215 - val_loss: 0.3649 - val_acc: 0.9049
+
+Epoch 00029: val_acc did not improve from 0.91240
+HELLO 29 : 0.9049
+Epoch 30/200
+Learning rate:  0.001
+ - 63s - loss: 0.3157 - acc: 0.9222 - val_loss: 0.3824 - val_acc: 0.9011
+
+Epoch 00030: val_acc did not improve from 0.91240
+HELLO 30 : 0.9011
+Epoch 31/200
+Learning rate:  0.001
+ - 63s - loss: 0.3141 - acc: 0.9226 - val_loss: 0.4138 - val_acc: 0.8920
+
+Epoch 00031: val_acc did not improve from 0.91240
+HELLO 31 : 0.892
+Epoch 32/200
+Learning rate:  0.001
+ - 63s - loss: 0.3126 - acc: 0.9227 - val_loss: 0.4076 - val_acc: 0.8917
+
+Epoch 00032: val_acc did not improve from 0.91240
+HELLO 32 : 0.8917
+Epoch 33/200
+Learning rate:  0.001
+ - 63s - loss: 0.3100 - acc: 0.9231 - val_loss: 0.4011 - val_acc: 0.8927
+
+Epoch 00033: val_acc did not improve from 0.91240
+HELLO 33 : 0.8927
+Epoch 34/200
+Learning rate:  0.001
+ - 63s - loss: 0.3077 - acc: 0.9235 - val_loss: 0.3902 - val_acc: 0.8958
+
+Epoch 00034: val_acc did not improve from 0.91240
+HELLO 34 : 0.8958
+Epoch 35/200
+Learning rate:  0.001
+ - 63s - loss: 0.3024 - acc: 0.9252 - val_loss: 0.4295 - val_acc: 0.8759
+
+Epoch 00035: val_acc did not improve from 0.91240
+HELLO 35 : 0.8759
+Epoch 36/200
+Learning rate:  0.001
+ - 64s - loss: 0.3037 - acc: 0.9245 - val_loss: 0.3801 - val_acc: 0.8998
+
+Epoch 00036: val_acc did not improve from 0.91240
+HELLO 36 : 0.8998
+Epoch 37/200
+Learning rate:  0.001
+ - 63s - loss: 0.2979 - acc: 0.9261 - val_loss: 0.3842 - val_acc: 0.8968
+
+Epoch 00037: val_acc did not improve from 0.91240
+HELLO 37 : 0.8968
+Epoch 38/200
+Learning rate:  0.001
+ - 63s - loss: 0.2961 - acc: 0.9261 - val_loss: 0.3514 - val_acc: 0.9143
+
+Epoch 00038: val_acc improved from 0.91240 to 0.91430, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.038.h5
+HELLO 38 : 0.9143
+Epoch 39/200
+Learning rate:  0.001
+ - 63s - loss: 0.2952 - acc: 0.9264 - val_loss: 0.3709 - val_acc: 0.9011
+
+Epoch 00039: val_acc did not improve from 0.91430
+HELLO 39 : 0.9011
+Epoch 40/200
+Learning rate:  0.001
+ - 64s - loss: 0.2954 - acc: 0.9261 - val_loss: 0.3444 - val_acc: 0.9087
+
+Epoch 00040: val_acc did not improve from 0.91430
+HELLO 40 : 0.9087
+Epoch 41/200
+Learning rate:  0.001
+ - 64s - loss: 0.2923 - acc: 0.9273 - val_loss: 0.3699 - val_acc: 0.9011
+
+Epoch 00041: val_acc did not improve from 0.91430
+HELLO 41 : 0.9011
+Epoch 42/200
+Learning rate:  0.001
+ - 66s - loss: 0.2916 - acc: 0.9273 - val_loss: 0.3362 - val_acc: 0.9145
+
+Epoch 00042: val_acc improved from 0.91430 to 0.91450, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.042.h5
+HELLO 42 : 0.9145
+Epoch 43/200
+Learning rate:  0.001
+ - 65s - loss: 0.2870 - acc: 0.9297 - val_loss: 0.4002 - val_acc: 0.8918
+
+Epoch 00043: val_acc did not improve from 0.91450
+HELLO 43 : 0.8918
+Epoch 44/200
+Learning rate:  0.001
+ - 64s - loss: 0.2851 - acc: 0.9290 - val_loss: 0.4131 - val_acc: 0.8876
+
+Epoch 00044: val_acc did not improve from 0.91450
+HELLO 44 : 0.8876
+Epoch 45/200
+Learning rate:  0.001
+ - 64s - loss: 0.2864 - acc: 0.9282 - val_loss: 0.3784 - val_acc: 0.8999
+
+Epoch 00045: val_acc did not improve from 0.91450
+HELLO 45 : 0.8999
+Epoch 46/200
+Learning rate:  0.001
+ - 65s - loss: 0.2799 - acc: 0.9307 - val_loss: 0.3328 - val_acc: 0.9138
+
+Epoch 00046: val_acc did not improve from 0.91450
+HELLO 46 : 0.9138
+Epoch 47/200
+Learning rate:  0.001
+ - 66s - loss: 0.2806 - acc: 0.9299 - val_loss: 0.3538 - val_acc: 0.9086
+
+Epoch 00047: val_acc did not improve from 0.91450
+HELLO 47 : 0.9086
+Epoch 48/200
+Learning rate:  0.001
+ - 65s - loss: 0.2830 - acc: 0.9294 - val_loss: 0.3816 - val_acc: 0.8963
+
+Epoch 00048: val_acc did not improve from 0.91450
+HELLO 48 : 0.8963
+Epoch 49/200
+Learning rate:  0.001
+ - 64s - loss: 0.2771 - acc: 0.9312 - val_loss: 0.3362 - val_acc: 0.9074
+
+Epoch 00049: val_acc did not improve from 0.91450
+HELLO 49 : 0.9074
+Epoch 50/200
+Learning rate:  0.001
+ - 64s - loss: 0.2766 - acc: 0.9316 - val_loss: 0.3738 - val_acc: 0.9002
+
+Epoch 00050: val_acc did not improve from 0.91450
+HELLO 50 : 0.9002
+Epoch 51/200
+Learning rate:  0.001
+ - 64s - loss: 0.2745 - acc: 0.9313 - val_loss: 0.3313 - val_acc: 0.9144
+
+Epoch 00051: val_acc did not improve from 0.91450
+HELLO 51 : 0.9144
+Epoch 52/200
+Learning rate:  0.001
+ - 67s - loss: 0.2758 - acc: 0.9303 - val_loss: 0.6427 - val_acc: 0.8232
+
+Epoch 00052: val_acc did not improve from 0.91450
+HELLO 52 : 0.8232
+Epoch 53/200
+Learning rate:  0.001
+ - 64s - loss: 0.2748 - acc: 0.9314 - val_loss: 0.3648 - val_acc: 0.8999
+
+Epoch 00053: val_acc did not improve from 0.91450
+HELLO 53 : 0.8999
+Epoch 54/200
+Learning rate:  0.001
+ - 64s - loss: 0.2725 - acc: 0.9320 - val_loss: 0.3201 - val_acc: 0.9161
+
+Epoch 00054: val_acc improved from 0.91450 to 0.91610, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.054.h5
+HELLO 54 : 0.9161
+Epoch 55/200
+Learning rate:  0.001
+ - 65s - loss: 0.2725 - acc: 0.9326 - val_loss: 0.3421 - val_acc: 0.9112
+
+Epoch 00055: val_acc did not improve from 0.91610
+HELLO 55 : 0.9112
+Epoch 56/200
+Learning rate:  0.001
+ - 65s - loss: 0.2705 - acc: 0.9317 - val_loss: 0.3292 - val_acc: 0.9129
+
+Epoch 00056: val_acc did not improve from 0.91610
+HELLO 56 : 0.9129
+Epoch 57/200
+Learning rate:  0.001
+ - 64s - loss: 0.2680 - acc: 0.9336 - val_loss: 0.3504 - val_acc: 0.9049
+
+Epoch 00057: val_acc did not improve from 0.91610
+HELLO 57 : 0.9049
+Epoch 58/200
+Learning rate:  0.001
+ - 64s - loss: 0.2662 - acc: 0.9344 - val_loss: 0.3707 - val_acc: 0.9008
+
+Epoch 00058: val_acc did not improve from 0.91610
+HELLO 58 : 0.9008
+Epoch 59/200
+Learning rate:  0.001
+ - 64s - loss: 0.2673 - acc: 0.9333 - val_loss: 0.3848 - val_acc: 0.8951
+
+Epoch 00059: val_acc did not improve from 0.91610
+HELLO 59 : 0.8951
+Epoch 60/200
+Learning rate:  0.001
+ - 64s - loss: 0.2673 - acc: 0.9328 - val_loss: 0.3197 - val_acc: 0.9180
+
+Epoch 00060: val_acc improved from 0.91610 to 0.91800, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.060.h5
+HELLO 60 : 0.918
+Epoch 61/200
+Learning rate:  0.001
+ - 64s - loss: 0.2683 - acc: 0.9325 - val_loss: 0.3343 - val_acc: 0.9132
+
+Epoch 00061: val_acc did not improve from 0.91800
+HELLO 61 : 0.9132
+Epoch 62/200
+Learning rate:  0.001
+ - 64s - loss: 0.2615 - acc: 0.9362 - val_loss: 0.4899 - val_acc: 0.8581
+
+Epoch 00062: val_acc did not improve from 0.91800
+HELLO 62 : 0.8581
+Epoch 63/200
+Learning rate:  0.001
+ - 64s - loss: 0.2643 - acc: 0.9338 - val_loss: 0.3614 - val_acc: 0.9075
+
+Epoch 00063: val_acc did not improve from 0.91800
+HELLO 63 : 0.9075
+Epoch 64/200
+Learning rate:  0.001
+ - 65s - loss: 0.2636 - acc: 0.9332 - val_loss: 0.4106 - val_acc: 0.8847
+
+Epoch 00064: val_acc did not improve from 0.91800
+HELLO 64 : 0.8847
+Epoch 65/200
+Learning rate:  0.001
+ - 64s - loss: 0.2605 - acc: 0.9361 - val_loss: 0.4108 - val_acc: 0.8868
+
+Epoch 00065: val_acc did not improve from 0.91800
+HELLO 65 : 0.8868
+Epoch 66/200
+Learning rate:  0.001
+ - 64s - loss: 0.2630 - acc: 0.9342 - val_loss: 0.3584 - val_acc: 0.9031
+
+Epoch 00066: val_acc did not improve from 0.91800
+HELLO 66 : 0.9031
+Epoch 67/200
+Learning rate:  0.001
+ - 90s - loss: 0.2630 - acc: 0.9342 - val_loss: 0.3348 - val_acc: 0.9111
+
+Epoch 00067: val_acc did not improve from 0.91800
+HELLO 67 : 0.9111
+Epoch 68/200
+Learning rate:  0.001
+ - 64s - loss: 0.2599 - acc: 0.9348 - val_loss: 0.3940 - val_acc: 0.8901
+
+Epoch 00068: val_acc did not improve from 0.91800
+HELLO 68 : 0.8901
+Epoch 69/200
+Learning rate:  0.001
+ - 64s - loss: 0.2606 - acc: 0.9333 - val_loss: 0.3703 - val_acc: 0.9016
+
+Epoch 00069: val_acc did not improve from 0.91800
+HELLO 69 : 0.9016
+Epoch 70/200
+Learning rate:  0.001
+ - 64s - loss: 0.2562 - acc: 0.9366 - val_loss: 0.3476 - val_acc: 0.9006
+
+Epoch 00070: val_acc did not improve from 0.91800
+HELLO 70 : 0.9006
+Epoch 71/200
+Learning rate:  0.001
+ - 65s - loss: 0.2585 - acc: 0.9349 - val_loss: 0.3127 - val_acc: 0.9151
+
+Epoch 00071: val_acc did not improve from 0.91800
+HELLO 71 : 0.9151
+Epoch 72/200
+Learning rate:  0.001
+ - 64s - loss: 0.2554 - acc: 0.9358 - val_loss: 0.3471 - val_acc: 0.9058
+
+Epoch 00072: val_acc did not improve from 0.91800
+HELLO 72 : 0.9058
+Epoch 73/200
+Learning rate:  0.001
+ - 66s - loss: 0.2544 - acc: 0.9369 - val_loss: 0.3406 - val_acc: 0.9102
+
+Epoch 00073: val_acc did not improve from 0.91800
+HELLO 73 : 0.9102
+Epoch 74/200
+Learning rate:  0.001
+ - 64s - loss: 0.2566 - acc: 0.9356 - val_loss: 0.3012 - val_acc: 0.9205
+
+Epoch 00074: val_acc improved from 0.91800 to 0.92050, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.074.h5
+HELLO 74 : 0.9205
+Epoch 75/200
+Learning rate:  0.001
+ - 65s - loss: 0.2548 - acc: 0.9364 - val_loss: 0.3424 - val_acc: 0.9121
+
+Epoch 00075: val_acc did not improve from 0.92050
+HELLO 75 : 0.9121
+Epoch 76/200
+Learning rate:  0.001
+ - 65s - loss: 0.2538 - acc: 0.9369 - val_loss: 0.3270 - val_acc: 0.9096
+
+Epoch 00076: val_acc did not improve from 0.92050
+HELLO 76 : 0.9096
+Epoch 77/200
+Learning rate:  0.001
+ - 65s - loss: 0.2540 - acc: 0.9384 - val_loss: 0.3263 - val_acc: 0.9173
+
+Epoch 00077: val_acc did not improve from 0.92050
+HELLO 77 : 0.9173
+Epoch 78/200
+Learning rate:  0.001
+ - 69s - loss: 0.2546 - acc: 0.9369 - val_loss: 0.3670 - val_acc: 0.9027
+
+Epoch 00078: val_acc did not improve from 0.92050
+HELLO 78 : 0.9027
+Epoch 79/200
+Learning rate:  0.001
+ - 79s - loss: 0.2504 - acc: 0.9373 - val_loss: 0.3253 - val_acc: 0.9164
+
+Epoch 00079: val_acc did not improve from 0.92050
+HELLO 79 : 0.9164
+Epoch 80/200
+Learning rate:  0.001
+ - 66s - loss: 0.2521 - acc: 0.9362 - val_loss: 0.3511 - val_acc: 0.9027
+
+Epoch 00080: val_acc did not improve from 0.92050
+HELLO 80 : 0.9027
+Epoch 81/200
+Learning rate:  0.001
+ - 66s - loss: 0.2496 - acc: 0.9383 - val_loss: 0.3555 - val_acc: 0.8999
+
+Epoch 00081: val_acc did not improve from 0.92050
+HELLO 81 : 0.8999
+Epoch 82/200
+Learning rate:  0.0001
+ - 63s - loss: 0.2226 - acc: 0.9485 - val_loss: 0.2559 - val_acc: 0.9369
+
+Epoch 00082: val_acc improved from 0.92050 to 0.93690, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.082.h5
+HELLO 82 : 0.9369
+Epoch 83/200
+Learning rate:  0.0001
+ - 63s - loss: 0.2074 - acc: 0.9529 - val_loss: 0.2551 - val_acc: 0.9376
+
+Epoch 00083: val_acc improved from 0.93690 to 0.93760, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.083.h5
+HELLO 83 : 0.9376
+Epoch 84/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1990 - acc: 0.9558 - val_loss: 0.2512 - val_acc: 0.9388
+
+Epoch 00084: val_acc improved from 0.93760 to 0.93880, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.084.h5
+HELLO 84 : 0.9388
+Epoch 85/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1977 - acc: 0.9562 - val_loss: 0.2509 - val_acc: 0.9395
+
+Epoch 00085: val_acc improved from 0.93880 to 0.93950, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.085.h5
+HELLO 85 : 0.9395
+Epoch 86/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1931 - acc: 0.9574 - val_loss: 0.2478 - val_acc: 0.9402
+
+Epoch 00086: val_acc improved from 0.93950 to 0.94020, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.086.h5
+HELLO 86 : 0.9402
+Epoch 87/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1914 - acc: 0.9572 - val_loss: 0.2457 - val_acc: 0.9405
+
+Epoch 00087: val_acc improved from 0.94020 to 0.94050, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.087.h5
+HELLO 87 : 0.9405
+Epoch 88/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1878 - acc: 0.9586 - val_loss: 0.2443 - val_acc: 0.9405
+
+Epoch 00088: val_acc did not improve from 0.94050
+HELLO 88 : 0.9405
+Epoch 89/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1875 - acc: 0.9583 - val_loss: 0.2438 - val_acc: 0.9406
+
+Epoch 00089: val_acc improved from 0.94050 to 0.94060, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.089.h5
+HELLO 89 : 0.9406
+Epoch 90/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1838 - acc: 0.9592 - val_loss: 0.2483 - val_acc: 0.9394
+
+Epoch 00090: val_acc did not improve from 0.94060
+HELLO 90 : 0.9394
+Epoch 91/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1800 - acc: 0.9606 - val_loss: 0.2511 - val_acc: 0.9372
+
+Epoch 00091: val_acc did not improve from 0.94060
+HELLO 91 : 0.9372
+Epoch 92/200
+Learning rate:  0.0001
+ - 64s - loss: 0.1804 - acc: 0.9598 - val_loss: 0.2506 - val_acc: 0.9384
+
+Epoch 00092: val_acc did not improve from 0.94060
+HELLO 92 : 0.9384
+Epoch 93/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1772 - acc: 0.9606 - val_loss: 0.2491 - val_acc: 0.9384
+
+Epoch 00093: val_acc did not improve from 0.94060
+HELLO 93 : 0.9384
+Epoch 94/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1741 - acc: 0.9625 - val_loss: 0.2447 - val_acc: 0.9382
+
+Epoch 00094: val_acc did not improve from 0.94060
+HELLO 94 : 0.9382
+Epoch 95/200
+Learning rate:  0.0001
+ - 65s - loss: 0.1722 - acc: 0.9623 - val_loss: 0.2435 - val_acc: 0.9390
+
+Epoch 00095: val_acc did not improve from 0.94060
+HELLO 95 : 0.939
+Epoch 96/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1716 - acc: 0.9626 - val_loss: 0.2456 - val_acc: 0.9385
+
+Epoch 00096: val_acc did not improve from 0.94060
+HELLO 96 : 0.9385
+Epoch 97/200
+Learning rate:  0.0001
+ - 67s - loss: 0.1716 - acc: 0.9627 - val_loss: 0.2447 - val_acc: 0.9385
+
+Epoch 00097: val_acc did not improve from 0.94060
+HELLO 97 : 0.9385
+Epoch 98/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1683 - acc: 0.9634 - val_loss: 0.2421 - val_acc: 0.9415
+
+Epoch 00098: val_acc improved from 0.94060 to 0.94150, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.098.h5
+HELLO 98 : 0.9415
+Epoch 99/200
+Learning rate:  0.0001
+ - 65s - loss: 0.1669 - acc: 0.9632 - val_loss: 0.2432 - val_acc: 0.9392
+
+Epoch 00099: val_acc did not improve from 0.94150
+HELLO 99 : 0.9392
+Epoch 100/200
+Learning rate:  0.0001
+ - 64s - loss: 0.1637 - acc: 0.9648 - val_loss: 0.2470 - val_acc: 0.9389
+
+Epoch 00100: val_acc did not improve from 0.94150
+HELLO 100 : 0.9389
+Epoch 101/200
+Learning rate:  0.0001
+ - 65s - loss: 0.1647 - acc: 0.9638 - val_loss: 0.2424 - val_acc: 0.9401
+
+Epoch 00101: val_acc did not improve from 0.94150
+HELLO 101 : 0.9401
+Epoch 102/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1621 - acc: 0.9643 - val_loss: 0.2415 - val_acc: 0.9401
+
+Epoch 00102: val_acc did not improve from 0.94150
+HELLO 102 : 0.9401
+Epoch 103/200
+Learning rate:  0.0001
+ - 80s - loss: 0.1619 - acc: 0.9648 - val_loss: 0.2433 - val_acc: 0.9407
+
+Epoch 00103: val_acc did not improve from 0.94150
+HELLO 103 : 0.9407
+Epoch 104/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1592 - acc: 0.9650 - val_loss: 0.2429 - val_acc: 0.9397
+
+Epoch 00104: val_acc did not improve from 0.94150
+HELLO 104 : 0.9397
+Epoch 105/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1592 - acc: 0.9656 - val_loss: 0.2445 - val_acc: 0.9383
+
+Epoch 00105: val_acc did not improve from 0.94150
+HELLO 105 : 0.9383
+Epoch 106/200
+Learning rate:  0.0001
+ - 77s - loss: 0.1581 - acc: 0.9651 - val_loss: 0.2402 - val_acc: 0.9404
+
+Epoch 00106: val_acc did not improve from 0.94150
+HELLO 106 : 0.9404
+Epoch 107/200
+Learning rate:  0.0001
+ - 66s - loss: 0.1547 - acc: 0.9661 - val_loss: 0.2439 - val_acc: 0.9406
+
+Epoch 00107: val_acc did not improve from 0.94150
+HELLO 107 : 0.9406
+Epoch 108/200
+Learning rate:  0.0001
+ - 65s - loss: 0.1544 - acc: 0.9670 - val_loss: 0.2448 - val_acc: 0.9385
+
+Epoch 00108: val_acc did not improve from 0.94150
+HELLO 108 : 0.9385
+Epoch 109/200
+Learning rate:  0.0001
+ - 65s - loss: 0.1535 - acc: 0.9669 - val_loss: 0.2438 - val_acc: 0.9398
+
+Epoch 00109: val_acc did not improve from 0.94150
+HELLO 109 : 0.9398
+Epoch 110/200
+Learning rate:  0.0001
+ - 65s - loss: 0.1528 - acc: 0.9676 - val_loss: 0.2443 - val_acc: 0.9393
+
+Epoch 00110: val_acc did not improve from 0.94150
+HELLO 110 : 0.9393
+Epoch 111/200
+Learning rate:  0.0001
+ - 64s - loss: 0.1502 - acc: 0.9673 - val_loss: 0.2447 - val_acc: 0.9405
+
+Epoch 00111: val_acc did not improve from 0.94150
+HELLO 111 : 0.9405
+Epoch 112/200
+Learning rate:  0.0001
+ - 65s - loss: 0.1512 - acc: 0.9671 - val_loss: 0.2451 - val_acc: 0.9419
+
+Epoch 00112: val_acc improved from 0.94150 to 0.94190, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.112.h5
+HELLO 112 : 0.9419
+Epoch 113/200
+Learning rate:  0.0001
+ - 64s - loss: 0.1492 - acc: 0.9675 - val_loss: 0.2483 - val_acc: 0.9405
+
+Epoch 00113: val_acc did not improve from 0.94190
+HELLO 113 : 0.9405
+Epoch 114/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1500 - acc: 0.9673 - val_loss: 0.2445 - val_acc: 0.9408
+
+Epoch 00114: val_acc did not improve from 0.94190
+HELLO 114 : 0.9408
+Epoch 115/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1476 - acc: 0.9684 - val_loss: 0.2472 - val_acc: 0.9412
+
+Epoch 00115: val_acc did not improve from 0.94190
+HELLO 115 : 0.9412
+Epoch 116/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1470 - acc: 0.9681 - val_loss: 0.2453 - val_acc: 0.9412
+
+Epoch 00116: val_acc did not improve from 0.94190
+HELLO 116 : 0.9412
+Epoch 117/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1478 - acc: 0.9678 - val_loss: 0.2481 - val_acc: 0.9407
+
+Epoch 00117: val_acc did not improve from 0.94190
+HELLO 117 : 0.9407
+Epoch 118/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1424 - acc: 0.9691 - val_loss: 0.2521 - val_acc: 0.9383
+
+Epoch 00118: val_acc did not improve from 0.94190
+HELLO 118 : 0.9383
+Epoch 119/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1416 - acc: 0.9701 - val_loss: 0.2523 - val_acc: 0.9373
+
+Epoch 00119: val_acc did not improve from 0.94190
+HELLO 119 : 0.9373
+Epoch 120/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1448 - acc: 0.9682 - val_loss: 0.2489 - val_acc: 0.9382
+
+Epoch 00120: val_acc did not improve from 0.94190
+HELLO 120 : 0.9382
+Epoch 121/200
+Learning rate:  0.0001
+ - 63s - loss: 0.1402 - acc: 0.9704 - val_loss: 0.2499 - val_acc: 0.9395
+
+Epoch 00121: val_acc did not improve from 0.94190
+HELLO 121 : 0.9395
+Epoch 122/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1361 - acc: 0.9720 - val_loss: 0.2451 - val_acc: 0.9428
+
+Epoch 00122: val_acc improved from 0.94190 to 0.94280, saving model to D:\PycharmProjects\NIPS_1_DNFIS\saved_models\Fashion_ResNet29v2_model.122.h5
+HELLO 122 : 0.9428
+Epoch 123/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1342 - acc: 0.9725 - val_loss: 0.2452 - val_acc: 0.9421
+
+Epoch 00123: val_acc did not improve from 0.94280
+HELLO 123 : 0.9421
+Epoch 124/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1336 - acc: 0.9727 - val_loss: 0.2453 - val_acc: 0.9422
+
+Epoch 00124: val_acc did not improve from 0.94280
+HELLO 124 : 0.9422
+Epoch 125/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1327 - acc: 0.9731 - val_loss: 0.2462 - val_acc: 0.9420
+
+Epoch 00125: val_acc did not improve from 0.94280
+HELLO 125 : 0.942
+Epoch 126/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1326 - acc: 0.9732 - val_loss: 0.2442 - val_acc: 0.9425
+
+Epoch 00126: val_acc did not improve from 0.94280
+HELLO 126 : 0.9425
+Epoch 127/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1301 - acc: 0.9739 - val_loss: 0.2448 - val_acc: 0.9419
+
+Epoch 00127: val_acc did not improve from 0.94280
+HELLO 127 : 0.9419
+Epoch 128/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1329 - acc: 0.9732 - val_loss: 0.2449 - val_acc: 0.9417
+
+Epoch 00128: val_acc did not improve from 0.94280
+HELLO 128 : 0.9417
+Epoch 129/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1312 - acc: 0.9735 - val_loss: 0.2453 - val_acc: 0.9421
+
+Epoch 00129: val_acc did not improve from 0.94280
+HELLO 129 : 0.9421
+Epoch 130/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1303 - acc: 0.9739 - val_loss: 0.2461 - val_acc: 0.9411
+
+Epoch 00130: val_acc did not improve from 0.94280
+HELLO 130 : 0.9411
+Epoch 131/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1312 - acc: 0.9734 - val_loss: 0.2446 - val_acc: 0.9415
+
+Epoch 00131: val_acc did not improve from 0.94280
+HELLO 131 : 0.9415
+Epoch 132/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1306 - acc: 0.9734 - val_loss: 0.2447 - val_acc: 0.9423
+
+Epoch 00132: val_acc did not improve from 0.94280
+HELLO 132 : 0.9423
+Epoch 133/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1294 - acc: 0.9738 - val_loss: 0.2467 - val_acc: 0.9420
+
+Epoch 00133: val_acc did not improve from 0.94280
+HELLO 133 : 0.942
+Epoch 134/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1299 - acc: 0.9744 - val_loss: 0.2471 - val_acc: 0.9424
+
+Epoch 00134: val_acc did not improve from 0.94280
+HELLO 134 : 0.9424
+Epoch 135/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1308 - acc: 0.9741 - val_loss: 0.2460 - val_acc: 0.9416
+
+Epoch 00135: val_acc did not improve from 0.94280
+HELLO 135 : 0.9416
+Epoch 136/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1293 - acc: 0.9749 - val_loss: 0.2462 - val_acc: 0.9424
+
+Epoch 00136: val_acc did not improve from 0.94280
+HELLO 136 : 0.9424
+Epoch 137/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1275 - acc: 0.9753 - val_loss: 0.2463 - val_acc: 0.9424
+
+Epoch 00137: val_acc did not improve from 0.94280
+HELLO 137 : 0.9424
+Epoch 138/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1298 - acc: 0.9742 - val_loss: 0.2469 - val_acc: 0.9423
+
+Epoch 00138: val_acc did not improve from 0.94280
+HELLO 138 : 0.9423
+Epoch 139/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1289 - acc: 0.9744 - val_loss: 0.2468 - val_acc: 0.9422
+
+Epoch 00139: val_acc did not improve from 0.94280
+HELLO 139 : 0.9422
+Epoch 140/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1281 - acc: 0.9748 - val_loss: 0.2469 - val_acc: 0.9418
+
+Epoch 00140: val_acc did not improve from 0.94280
+HELLO 140 : 0.9418
+Epoch 141/200
+Learning rate:  1e-05
+ - 65s - loss: 0.1273 - acc: 0.9749 - val_loss: 0.2469 - val_acc: 0.9422
+
+Epoch 00141: val_acc did not improve from 0.94280
+HELLO 141 : 0.9422
+Epoch 142/200
+Learning rate:  1e-05
+ - 65s - loss: 0.1286 - acc: 0.9748 - val_loss: 0.2474 - val_acc: 0.9418
+
+Epoch 00142: val_acc did not improve from 0.94280
+HELLO 142 : 0.9418
+Epoch 143/200
+Learning rate:  1e-05
+ - 65s - loss: 0.1283 - acc: 0.9744 - val_loss: 0.2480 - val_acc: 0.9420
+
+Epoch 00143: val_acc did not improve from 0.94280
+HELLO 143 : 0.942
+Epoch 144/200
+Learning rate:  1e-05
+ - 64s - loss: 0.1284 - acc: 0.9753 - val_loss: 0.2480 - val_acc: 0.9412
+
+Epoch 00144: val_acc did not improve from 0.94280
+HELLO 144 : 0.9412
+Epoch 145/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1261 - acc: 0.9756 - val_loss: 0.2486 - val_acc: 0.9409
+
+Epoch 00145: val_acc did not improve from 0.94280
+HELLO 145 : 0.9409
+Epoch 146/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1265 - acc: 0.9753 - val_loss: 0.2492 - val_acc: 0.9418
+
+Epoch 00146: val_acc did not improve from 0.94280
+HELLO 146 : 0.9418
+Epoch 147/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1289 - acc: 0.9742 - val_loss: 0.2478 - val_acc: 0.9419
+
+Epoch 00147: val_acc did not improve from 0.94280
+HELLO 147 : 0.9419
+Epoch 148/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1262 - acc: 0.9751 - val_loss: 0.2487 - val_acc: 0.9418
+
+Epoch 00148: val_acc did not improve from 0.94280
+HELLO 148 : 0.9418
+Epoch 149/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1285 - acc: 0.9737 - val_loss: 0.2488 - val_acc: 0.9422
+
+Epoch 00149: val_acc did not improve from 0.94280
+HELLO 149 : 0.9422
+Epoch 150/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1267 - acc: 0.9747 - val_loss: 0.2469 - val_acc: 0.9417
+
+Epoch 00150: val_acc did not improve from 0.94280
+HELLO 150 : 0.9417
+Epoch 151/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1259 - acc: 0.9752 - val_loss: 0.2487 - val_acc: 0.9411
+
+Epoch 00151: val_acc did not improve from 0.94280
+HELLO 151 : 0.9411
+Epoch 152/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1245 - acc: 0.9754 - val_loss: 0.2489 - val_acc: 0.9417
+
+Epoch 00152: val_acc did not improve from 0.94280
+HELLO 152 : 0.9417
+Epoch 153/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1261 - acc: 0.9754 - val_loss: 0.2475 - val_acc: 0.9423
+
+Epoch 00153: val_acc did not improve from 0.94280
+HELLO 153 : 0.9423
+Epoch 154/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1239 - acc: 0.9759 - val_loss: 0.2493 - val_acc: 0.9418
+
+Epoch 00154: val_acc did not improve from 0.94280
+HELLO 154 : 0.9418
+Epoch 155/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1251 - acc: 0.9760 - val_loss: 0.2497 - val_acc: 0.9424
+
+Epoch 00155: val_acc did not improve from 0.94280
+HELLO 155 : 0.9424
+Epoch 156/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1261 - acc: 0.9754 - val_loss: 0.2502 - val_acc: 0.9412
+
+Epoch 00156: val_acc did not improve from 0.94280
+HELLO 156 : 0.9412
+Epoch 157/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1233 - acc: 0.9770 - val_loss: 0.2501 - val_acc: 0.9410
+
+Epoch 00157: val_acc did not improve from 0.94280
+HELLO 157 : 0.941
+Epoch 158/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1262 - acc: 0.9743 - val_loss: 0.2490 - val_acc: 0.9409
+
+Epoch 00158: val_acc did not improve from 0.94280
+HELLO 158 : 0.9409
+Epoch 159/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1247 - acc: 0.9757 - val_loss: 0.2492 - val_acc: 0.9421
+
+Epoch 00159: val_acc did not improve from 0.94280
+HELLO 159 : 0.9421
+Epoch 160/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1266 - acc: 0.9750 - val_loss: 0.2511 - val_acc: 0.9421
+
+Epoch 00160: val_acc did not improve from 0.94280
+HELLO 160 : 0.9421
+Epoch 161/200
+Learning rate:  1e-05
+ - 63s - loss: 0.1250 - acc: 0.9759 - val_loss: 0.2496 - val_acc: 0.9419
+
+Epoch 00161: val_acc did not improve from 0.94280
+HELLO 161 : 0.9419
+Epoch 162/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1238 - acc: 0.9763 - val_loss: 0.2498 - val_acc: 0.9420
+
+Epoch 00162: val_acc did not improve from 0.94280
+HELLO 162 : 0.942
+Epoch 163/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1237 - acc: 0.9765 - val_loss: 0.2501 - val_acc: 0.9416
+
+Epoch 00163: val_acc did not improve from 0.94280
+HELLO 163 : 0.9416
+Epoch 164/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1235 - acc: 0.9763 - val_loss: 0.2498 - val_acc: 0.9415
+
+Epoch 00164: val_acc did not improve from 0.94280
+HELLO 164 : 0.9415
+Epoch 165/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1253 - acc: 0.9759 - val_loss: 0.2500 - val_acc: 0.9413
+
+Epoch 00165: val_acc did not improve from 0.94280
+HELLO 165 : 0.9413
+Epoch 166/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1246 - acc: 0.9756 - val_loss: 0.2499 - val_acc: 0.9418
+
+Epoch 00166: val_acc did not improve from 0.94280
+HELLO 166 : 0.9418
+Epoch 167/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1222 - acc: 0.9765 - val_loss: 0.2499 - val_acc: 0.9417
+
+Epoch 00167: val_acc did not improve from 0.94280
+HELLO 167 : 0.9417
+Epoch 168/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1238 - acc: 0.9752 - val_loss: 0.2497 - val_acc: 0.9418
+
+Epoch 00168: val_acc did not improve from 0.94280
+HELLO 168 : 0.9418
+Epoch 169/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1249 - acc: 0.9752 - val_loss: 0.2498 - val_acc: 0.9420
+
+Epoch 00169: val_acc did not improve from 0.94280
+HELLO 169 : 0.942
+Epoch 170/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1241 - acc: 0.9760 - val_loss: 0.2501 - val_acc: 0.9415
+
+Epoch 00170: val_acc did not improve from 0.94280
+HELLO 170 : 0.9415
+Epoch 171/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1237 - acc: 0.9766 - val_loss: 0.2500 - val_acc: 0.9418
+
+Epoch 00171: val_acc did not improve from 0.94280
+HELLO 171 : 0.9418
+Epoch 172/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1239 - acc: 0.9756 - val_loss: 0.2503 - val_acc: 0.9417
+
+Epoch 00172: val_acc did not improve from 0.94280
+HELLO 172 : 0.9417
+Epoch 173/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1227 - acc: 0.9764 - val_loss: 0.2499 - val_acc: 0.9415
+
+Epoch 00173: val_acc did not improve from 0.94280
+HELLO 173 : 0.9415
+Epoch 174/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1231 - acc: 0.9765 - val_loss: 0.2502 - val_acc: 0.9416
+
+Epoch 00174: val_acc did not improve from 0.94280
+HELLO 174 : 0.9416
+Epoch 175/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1230 - acc: 0.9762 - val_loss: 0.2502 - val_acc: 0.9413
+
+Epoch 00175: val_acc did not improve from 0.94280
+HELLO 175 : 0.9413
+Epoch 176/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1230 - acc: 0.9768 - val_loss: 0.2502 - val_acc: 0.9414
+
+Epoch 00176: val_acc did not improve from 0.94280
+HELLO 176 : 0.9414
+Epoch 177/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1225 - acc: 0.9763 - val_loss: 0.2501 - val_acc: 0.9416
+
+Epoch 00177: val_acc did not improve from 0.94280
+HELLO 177 : 0.9416
+Epoch 178/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1236 - acc: 0.9762 - val_loss: 0.2504 - val_acc: 0.9416
+
+Epoch 00178: val_acc did not improve from 0.94280
+HELLO 178 : 0.9416
+Epoch 179/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1226 - acc: 0.9762 - val_loss: 0.2506 - val_acc: 0.9416
+
+Epoch 00179: val_acc did not improve from 0.94280
+HELLO 179 : 0.9416
+Epoch 180/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1235 - acc: 0.9764 - val_loss: 0.2506 - val_acc: 0.9417
+
+Epoch 00180: val_acc did not improve from 0.94280
+HELLO 180 : 0.9417
+Epoch 181/200
+Learning rate:  1e-06
+ - 63s - loss: 0.1250 - acc: 0.9757 - val_loss: 0.2507 - val_acc: 0.9415
+
+Epoch 00181: val_acc did not improve from 0.94280
+HELLO 181 : 0.9415
+Epoch 182/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1233 - acc: 0.9761 - val_loss: 0.2507 - val_acc: 0.9415
+
+Epoch 00182: val_acc did not improve from 0.94280
+HELLO 182 : 0.9415
+Epoch 183/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1249 - acc: 0.9756 - val_loss: 0.2502 - val_acc: 0.9415
+
+Epoch 00183: val_acc did not improve from 0.94280
+HELLO 183 : 0.9415
+Epoch 184/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1240 - acc: 0.9756 - val_loss: 0.2507 - val_acc: 0.9416
+
+Epoch 00184: val_acc did not improve from 0.94280
+HELLO 184 : 0.9416
+Epoch 185/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1241 - acc: 0.9766 - val_loss: 0.2503 - val_acc: 0.9415
+
+Epoch 00185: val_acc did not improve from 0.94280
+HELLO 185 : 0.9415
+Epoch 186/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1227 - acc: 0.9764 - val_loss: 0.2506 - val_acc: 0.9415
+
+Epoch 00186: val_acc did not improve from 0.94280
+HELLO 186 : 0.9415
+Epoch 187/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1226 - acc: 0.9768 - val_loss: 0.2506 - val_acc: 0.9416
+
+Epoch 00187: val_acc did not improve from 0.94280
+HELLO 187 : 0.9416
+Epoch 188/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1247 - acc: 0.9754 - val_loss: 0.2507 - val_acc: 0.9418
+
+Epoch 00188: val_acc did not improve from 0.94280
+HELLO 188 : 0.9418
+Epoch 189/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1227 - acc: 0.9770 - val_loss: 0.2503 - val_acc: 0.9417
+
+Epoch 00189: val_acc did not improve from 0.94280
+HELLO 189 : 0.9417
+Epoch 190/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1232 - acc: 0.9760 - val_loss: 0.2508 - val_acc: 0.9414
+
+Epoch 00190: val_acc did not improve from 0.94280
+HELLO 190 : 0.9414
+Epoch 191/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1219 - acc: 0.9769 - val_loss: 0.2509 - val_acc: 0.9419
+
+Epoch 00191: val_acc did not improve from 0.94280
+HELLO 191 : 0.9419
+Epoch 192/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1237 - acc: 0.9763 - val_loss: 0.2507 - val_acc: 0.9418
+
+Epoch 00192: val_acc did not improve from 0.94280
+HELLO 192 : 0.9418
+Epoch 193/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1229 - acc: 0.9766 - val_loss: 0.2504 - val_acc: 0.9420
+
+Epoch 00193: val_acc did not improve from 0.94280
+HELLO 193 : 0.942
+Epoch 194/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1238 - acc: 0.9762 - val_loss: 0.2507 - val_acc: 0.9420
+
+Epoch 00194: val_acc did not improve from 0.94280
+HELLO 194 : 0.942
+Epoch 195/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1223 - acc: 0.9767 - val_loss: 0.2510 - val_acc: 0.9414
+
+Epoch 00195: val_acc did not improve from 0.94280
+HELLO 195 : 0.9414
+Epoch 196/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1232 - acc: 0.9757 - val_loss: 0.2505 - val_acc: 0.9420
+
+Epoch 00196: val_acc did not improve from 0.94280
+HELLO 196 : 0.942
+Epoch 197/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1251 - acc: 0.9756 - val_loss: 0.2508 - val_acc: 0.9418
+
+Epoch 00197: val_acc did not improve from 0.94280
+HELLO 197 : 0.9418
+Epoch 198/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1217 - acc: 0.9773 - val_loss: 0.2503 - val_acc: 0.9417
+
+Epoch 00198: val_acc did not improve from 0.94280
+HELLO 198 : 0.9417
+Epoch 199/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1249 - acc: 0.9760 - val_loss: 0.2507 - val_acc: 0.9419
+
+Epoch 00199: val_acc did not improve from 0.94280
+HELLO 199 : 0.9419
+Epoch 200/200
+Learning rate:  5e-07
+ - 63s - loss: 0.1221 - acc: 0.9762 - val_loss: 0.2504 - val_acc: 0.9417
+
+Epoch 00200: val_acc did not improve from 0.94280
+HELLO 200 : 0.9417
+
+   32/10000 [..............................] - ETA: 19s
+  128/10000 [..............................] - ETA: 9s 
+  256/10000 [..............................] - ETA: 7s
+  352/10000 [>.............................] - ETA: 6s
+  480/10000 [>.............................] - ETA: 6s
+  608/10000 [>.............................] - ETA: 6s
+  704/10000 [=>............................] - ETA: 5s
+  832/10000 [=>............................] - ETA: 5s
+  928/10000 [=>............................] - ETA: 5s
+ 1056/10000 [==>...........................] - ETA: 5s
+ 1184/10000 [==>...........................] - ETA: 5s
+ 1312/10000 [==>...........................] - ETA: 5s
+ 1408/10000 [===>..........................] - ETA: 5s
+ 1536/10000 [===>..........................] - ETA: 4s
+ 1632/10000 [===>..........................] - ETA: 4s
+ 1760/10000 [====>.........................] - ETA: 4s
+ 1856/10000 [====>.........................] - ETA: 4s
+ 1984/10000 [====>.........................] - ETA: 4s
+ 2080/10000 [=====>........................] - ETA: 4s
+ 2208/10000 [=====>........................] - ETA: 4s
+ 2304/10000 [=====>........................] - ETA: 4s
+ 2432/10000 [======>.......................] - ETA: 4s
+ 2528/10000 [======>.......................] - ETA: 4s
+ 2656/10000 [======>.......................] - ETA: 4s
+ 2752/10000 [=======>......................] - ETA: 4s
+ 2880/10000 [=======>......................] - ETA: 4s
+ 3008/10000 [========>.....................] - ETA: 4s
+ 3104/10000 [========>.....................] - ETA: 3s
+ 3232/10000 [========>.....................] - ETA: 3s
+ 3360/10000 [=========>....................] - ETA: 3s
+ 3488/10000 [=========>....................] - ETA: 3s
+ 3616/10000 [=========>....................] - ETA: 3s
+ 3712/10000 [==========>...................] - ETA: 3s
+ 3840/10000 [==========>...................] - ETA: 3s
+ 3936/10000 [==========>...................] - ETA: 3s
+ 4064/10000 [===========>..................] - ETA: 3s
+ 4160/10000 [===========>..................] - ETA: 3s
+ 4288/10000 [===========>..................] - ETA: 3s
+ 4384/10000 [============>.................] - ETA: 3s
+ 4512/10000 [============>.................] - ETA: 3s
+ 4608/10000 [============>.................] - ETA: 3s
+ 4736/10000 [=============>................] - ETA: 3s
+ 4832/10000 [=============>................] - ETA: 2s
+ 4960/10000 [=============>................] - ETA: 2s
+ 5056/10000 [==============>...............] - ETA: 2s
+ 5184/10000 [==============>...............] - ETA: 2s
+ 5280/10000 [==============>...............] - ETA: 2s
+ 5408/10000 [===============>..............] - ETA: 2s
+ 5504/10000 [===============>..............] - ETA: 2s
+ 5632/10000 [===============>..............] - ETA: 2s
+ 5728/10000 [================>.............] - ETA: 2s
+ 5856/10000 [================>.............] - ETA: 2s
+ 5984/10000 [================>.............] - ETA: 2s
+ 6112/10000 [=================>............] - ETA: 2s
+ 6240/10000 [=================>............] - ETA: 2s
+ 6336/10000 [==================>...........] - ETA: 2s
+ 6464/10000 [==================>...........] - ETA: 2s
+ 6560/10000 [==================>...........] - ETA: 1s
+ 6688/10000 [===================>..........] - ETA: 1s
+ 6784/10000 [===================>..........] - ETA: 1s
+ 6912/10000 [===================>..........] - ETA: 1s
+ 7008/10000 [====================>.........] - ETA: 1s
+ 7136/10000 [====================>.........] - ETA: 1s
+ 7232/10000 [====================>.........] - ETA: 1s
+ 7360/10000 [=====================>........] - ETA: 1s
+ 7456/10000 [=====================>........] - ETA: 1s
+ 7584/10000 [=====================>........] - ETA: 1s
+ 7680/10000 [======================>.......] - ETA: 1s
+ 7808/10000 [======================>.......] - ETA: 1s
+ 7904/10000 [======================>.......] - ETA: 1s
+ 8032/10000 [=======================>......] - ETA: 1s
+ 8128/10000 [=======================>......] - ETA: 1s
+ 8256/10000 [=======================>......] - ETA: 0s
+ 8352/10000 [========================>.....] - ETA: 0s
+ 8480/10000 [========================>.....] - ETA: 0s
+ 8576/10000 [========================>.....] - ETA: 0s
+ 8704/10000 [=========================>....] - ETA: 0s
+ 8800/10000 [=========================>....] - ETA: 0s
+ 8896/10000 [=========================>....] - ETA: 0s
+ 9024/10000 [==========================>...] - ETA: 0s
+ 9120/10000 [==========================>...] - ETA: 0s
+ 9248/10000 [==========================>...] - ETA: 0s
+ 9344/10000 [===========================>..] - ETA: 0s
+ 9472/10000 [===========================>..] - ETA: 0s
+ 9568/10000 [===========================>..] - ETA: 0s
+ 9696/10000 [============================>.] - ETA: 0s
+ 9792/10000 [============================>.] - ETA: 0s
+ 9920/10000 [============================>.] - ETA: 0s
+10000/10000 [==============================] - 6s 567us/step
+Test loss: 0.2503577378988266
+Test accuracy: 0.9417
+
+Process finished with exit code 0

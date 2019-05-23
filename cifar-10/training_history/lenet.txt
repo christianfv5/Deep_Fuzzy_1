@@ -1,0 +1,1036 @@
+C:\Users\YEG\Anaconda3\envs\tf-gpu\python.exe D:/PycharmProjects/NIPS_1_DNFIS/LeNet/CIFAR_LeNet.py
+Using TensorFlow backend.
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 32, 32, 3)         0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 28, 28, 6)         456       
+_________________________________________________________________
+average_pooling2d_1 (Average (None, 14, 14, 6)         0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 10, 10, 16)        2416      
+_________________________________________________________________
+average_pooling2d_2 (Average (None, 5, 5, 16)          0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 400)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 120)               48120     
+_________________________________________________________________
+dense_2 (Dense)              (None, 84)                10164     
+_________________________________________________________________
+dense_3 (Dense)              (None, 10)                850       
+=================================================================
+Total params: 62,006
+Trainable params: 62,006
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/200
+2019-04-16 22:51:22.362412: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 970 major: 5 minor: 2 memoryClockRate(GHz): 1.253
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.76GiB
+2019-04-16 22:51:22.362667: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-04-16 22:51:22.759609: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-04-16 22:51:22.759753: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:971]      0 
+2019-04-16 22:51:22.759844: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:984] 0:   N 
+2019-04-16 22:51:22.760027: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3494 MB memory) -> physical GPU (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0, compute capability: 5.2)
+ - 27s - loss: 1.6358 - acc: 0.4000 - val_loss: 1.3602 - val_acc: 0.5096
+
+Epoch 00001: val_acc improved from -inf to 0.50960, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.001.h5
+HELLO 1 : 0.5096
+Epoch 2/200
+ - 24s - loss: 1.3958 - acc: 0.4944 - val_loss: 1.3227 - val_acc: 0.5242
+
+Epoch 00002: val_acc improved from 0.50960 to 0.52420, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.002.h5
+HELLO 2 : 0.5242
+Epoch 3/200
+ - 24s - loss: 1.2996 - acc: 0.5327 - val_loss: 1.2112 - val_acc: 0.5610
+
+Epoch 00003: val_acc improved from 0.52420 to 0.56100, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.003.h5
+HELLO 3 : 0.561
+Epoch 4/200
+ - 24s - loss: 1.2429 - acc: 0.5557 - val_loss: 1.1573 - val_acc: 0.5865
+
+Epoch 00004: val_acc improved from 0.56100 to 0.58650, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.004.h5
+HELLO 4 : 0.5865
+Epoch 5/200
+ - 24s - loss: 1.1973 - acc: 0.5731 - val_loss: 1.1698 - val_acc: 0.5818
+
+Epoch 00005: val_acc did not improve from 0.58650
+HELLO 5 : 0.5818
+Epoch 6/200
+ - 24s - loss: 1.1582 - acc: 0.5863 - val_loss: 1.1079 - val_acc: 0.6066
+
+Epoch 00006: val_acc improved from 0.58650 to 0.60660, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.006.h5
+HELLO 6 : 0.6066
+Epoch 7/200
+ - 24s - loss: 1.1280 - acc: 0.5979 - val_loss: 1.0810 - val_acc: 0.6102
+
+Epoch 00007: val_acc improved from 0.60660 to 0.61020, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.007.h5
+HELLO 7 : 0.6102
+Epoch 8/200
+ - 26s - loss: 1.0944 - acc: 0.6103 - val_loss: 1.0292 - val_acc: 0.6346
+
+Epoch 00008: val_acc improved from 0.61020 to 0.63460, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.008.h5
+HELLO 8 : 0.6346
+Epoch 9/200
+ - 25s - loss: 1.0708 - acc: 0.6198 - val_loss: 1.0340 - val_acc: 0.6306
+
+Epoch 00009: val_acc did not improve from 0.63460
+HELLO 9 : 0.6306
+Epoch 10/200
+ - 25s - loss: 1.0498 - acc: 0.6272 - val_loss: 1.0106 - val_acc: 0.6438
+
+Epoch 00010: val_acc improved from 0.63460 to 0.64380, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.010.h5
+HELLO 10 : 0.6438
+Epoch 11/200
+ - 24s - loss: 1.0272 - acc: 0.6345 - val_loss: 1.0003 - val_acc: 0.6494
+
+Epoch 00011: val_acc improved from 0.64380 to 0.64940, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.011.h5
+HELLO 11 : 0.6494
+Epoch 12/200
+ - 24s - loss: 1.0151 - acc: 0.6397 - val_loss: 0.9839 - val_acc: 0.6558
+
+Epoch 00012: val_acc improved from 0.64940 to 0.65580, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.012.h5
+HELLO 12 : 0.6558
+Epoch 13/200
+ - 24s - loss: 0.9940 - acc: 0.6479 - val_loss: 0.9988 - val_acc: 0.6479
+
+Epoch 00013: val_acc did not improve from 0.65580
+HELLO 13 : 0.6479
+Epoch 14/200
+ - 24s - loss: 0.9839 - acc: 0.6508 - val_loss: 0.9473 - val_acc: 0.6704
+
+Epoch 00014: val_acc improved from 0.65580 to 0.67040, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.014.h5
+HELLO 14 : 0.6704
+Epoch 15/200
+ - 24s - loss: 0.9725 - acc: 0.6545 - val_loss: 0.9703 - val_acc: 0.6597
+
+Epoch 00015: val_acc did not improve from 0.67040
+HELLO 15 : 0.6597
+Epoch 16/200
+ - 24s - loss: 0.9615 - acc: 0.6595 - val_loss: 0.9304 - val_acc: 0.6744
+
+Epoch 00016: val_acc improved from 0.67040 to 0.67440, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.016.h5
+HELLO 16 : 0.6744
+Epoch 17/200
+ - 24s - loss: 0.9468 - acc: 0.6624 - val_loss: 0.9210 - val_acc: 0.6748
+
+Epoch 00017: val_acc improved from 0.67440 to 0.67480, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.017.h5
+HELLO 17 : 0.6748
+Epoch 18/200
+ - 24s - loss: 0.9428 - acc: 0.6655 - val_loss: 0.9741 - val_acc: 0.6642
+
+Epoch 00018: val_acc did not improve from 0.67480
+HELLO 18 : 0.6642
+Epoch 19/200
+ - 24s - loss: 0.9317 - acc: 0.6706 - val_loss: 0.9849 - val_acc: 0.6621
+
+Epoch 00019: val_acc did not improve from 0.67480
+HELLO 19 : 0.6621
+Epoch 20/200
+ - 24s - loss: 0.9216 - acc: 0.6740 - val_loss: 0.9379 - val_acc: 0.6677
+
+Epoch 00020: val_acc did not improve from 0.67480
+HELLO 20 : 0.6677
+Epoch 21/200
+ - 25s - loss: 0.9134 - acc: 0.6784 - val_loss: 0.9602 - val_acc: 0.6655
+
+Epoch 00021: val_acc did not improve from 0.67480
+HELLO 21 : 0.6655
+Epoch 22/200
+ - 24s - loss: 0.9092 - acc: 0.6775 - val_loss: 0.9152 - val_acc: 0.6825
+
+Epoch 00022: val_acc improved from 0.67480 to 0.68250, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.022.h5
+HELLO 22 : 0.6825
+Epoch 23/200
+ - 24s - loss: 0.9038 - acc: 0.6793 - val_loss: 0.9059 - val_acc: 0.6846
+
+Epoch 00023: val_acc improved from 0.68250 to 0.68460, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.023.h5
+HELLO 23 : 0.6846
+Epoch 24/200
+ - 24s - loss: 0.8993 - acc: 0.6808 - val_loss: 0.8812 - val_acc: 0.6925
+
+Epoch 00024: val_acc improved from 0.68460 to 0.69250, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.024.h5
+HELLO 24 : 0.6925
+Epoch 25/200
+ - 24s - loss: 0.8948 - acc: 0.6847 - val_loss: 0.8953 - val_acc: 0.6859
+
+Epoch 00025: val_acc did not improve from 0.69250
+HELLO 25 : 0.6859
+Epoch 26/200
+ - 24s - loss: 0.8824 - acc: 0.6876 - val_loss: 0.9301 - val_acc: 0.6797
+
+Epoch 00026: val_acc did not improve from 0.69250
+HELLO 26 : 0.6797
+Epoch 27/200
+ - 24s - loss: 0.8811 - acc: 0.6886 - val_loss: 0.8890 - val_acc: 0.6911
+
+Epoch 00027: val_acc did not improve from 0.69250
+HELLO 27 : 0.6911
+Epoch 28/200
+ - 24s - loss: 0.8808 - acc: 0.6876 - val_loss: 0.9393 - val_acc: 0.6772
+
+Epoch 00028: val_acc did not improve from 0.69250
+HELLO 28 : 0.6772
+Epoch 29/200
+ - 24s - loss: 0.8752 - acc: 0.6887 - val_loss: 0.8735 - val_acc: 0.6973
+
+Epoch 00029: val_acc improved from 0.69250 to 0.69730, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.029.h5
+HELLO 29 : 0.6973
+Epoch 30/200
+ - 24s - loss: 0.8652 - acc: 0.6925 - val_loss: 0.9105 - val_acc: 0.6883
+
+Epoch 00030: val_acc did not improve from 0.69730
+HELLO 30 : 0.6883
+Epoch 31/200
+ - 24s - loss: 0.8581 - acc: 0.6946 - val_loss: 0.8968 - val_acc: 0.6923
+
+Epoch 00031: val_acc did not improve from 0.69730
+HELLO 31 : 0.6923
+Epoch 32/200
+ - 24s - loss: 0.8539 - acc: 0.6970 - val_loss: 0.8890 - val_acc: 0.6906
+
+Epoch 00032: val_acc did not improve from 0.69730
+HELLO 32 : 0.6906
+Epoch 33/200
+ - 24s - loss: 0.8512 - acc: 0.6983 - val_loss: 0.8801 - val_acc: 0.6938
+
+Epoch 00033: val_acc did not improve from 0.69730
+HELLO 33 : 0.6938
+Epoch 34/200
+ - 24s - loss: 0.8482 - acc: 0.6986 - val_loss: 0.9009 - val_acc: 0.6905
+
+Epoch 00034: val_acc did not improve from 0.69730
+HELLO 34 : 0.6905
+Epoch 35/200
+ - 24s - loss: 0.8486 - acc: 0.7014 - val_loss: 0.8736 - val_acc: 0.7012
+
+Epoch 00035: val_acc improved from 0.69730 to 0.70120, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.035.h5
+HELLO 35 : 0.7012
+Epoch 36/200
+ - 24s - loss: 0.8455 - acc: 0.7005 - val_loss: 0.8869 - val_acc: 0.7002
+
+Epoch 00036: val_acc did not improve from 0.70120
+HELLO 36 : 0.7002
+Epoch 37/200
+ - 24s - loss: 0.8376 - acc: 0.7015 - val_loss: 0.9037 - val_acc: 0.6905
+
+Epoch 00037: val_acc did not improve from 0.70120
+HELLO 37 : 0.6905
+Epoch 38/200
+ - 24s - loss: 0.8379 - acc: 0.7027 - val_loss: 0.8713 - val_acc: 0.6994
+
+Epoch 00038: val_acc did not improve from 0.70120
+HELLO 38 : 0.6994
+Epoch 39/200
+ - 24s - loss: 0.8321 - acc: 0.7058 - val_loss: 0.8724 - val_acc: 0.6991
+
+Epoch 00039: val_acc did not improve from 0.70120
+HELLO 39 : 0.6991
+Epoch 40/200
+ - 24s - loss: 0.8307 - acc: 0.7065 - val_loss: 0.8632 - val_acc: 0.7025
+
+Epoch 00040: val_acc improved from 0.70120 to 0.70250, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.040.h5
+HELLO 40 : 0.7025
+Epoch 41/200
+ - 24s - loss: 0.8271 - acc: 0.7073 - val_loss: 0.8940 - val_acc: 0.6925
+
+Epoch 00041: val_acc did not improve from 0.70250
+HELLO 41 : 0.6925
+Epoch 42/200
+ - 24s - loss: 0.8134 - acc: 0.7126 - val_loss: 0.8435 - val_acc: 0.7132
+
+Epoch 00042: val_acc improved from 0.70250 to 0.71320, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.042.h5
+HELLO 42 : 0.7132
+Epoch 43/200
+ - 24s - loss: 0.8223 - acc: 0.7096 - val_loss: 0.8590 - val_acc: 0.7076
+
+Epoch 00043: val_acc did not improve from 0.71320
+HELLO 43 : 0.7076
+Epoch 44/200
+ - 24s - loss: 0.8201 - acc: 0.7092 - val_loss: 0.8838 - val_acc: 0.6977
+
+Epoch 00044: val_acc did not improve from 0.71320
+HELLO 44 : 0.6977
+Epoch 45/200
+ - 24s - loss: 0.8208 - acc: 0.7099 - val_loss: 0.8357 - val_acc: 0.7100
+
+Epoch 00045: val_acc did not improve from 0.71320
+HELLO 45 : 0.71
+Epoch 46/200
+ - 24s - loss: 0.8100 - acc: 0.7118 - val_loss: 0.8441 - val_acc: 0.7105
+
+Epoch 00046: val_acc did not improve from 0.71320
+HELLO 46 : 0.7105
+Epoch 47/200
+ - 24s - loss: 0.8117 - acc: 0.7113 - val_loss: 0.8632 - val_acc: 0.7043
+
+Epoch 00047: val_acc did not improve from 0.71320
+HELLO 47 : 0.7043
+Epoch 48/200
+ - 24s - loss: 0.8129 - acc: 0.7126 - val_loss: 0.8469 - val_acc: 0.7094
+
+Epoch 00048: val_acc did not improve from 0.71320
+HELLO 48 : 0.7094
+Epoch 49/200
+ - 24s - loss: 0.8082 - acc: 0.7129 - val_loss: 0.9429 - val_acc: 0.6788
+
+Epoch 00049: val_acc did not improve from 0.71320
+HELLO 49 : 0.6788
+Epoch 50/200
+ - 24s - loss: 0.8098 - acc: 0.7113 - val_loss: 0.8483 - val_acc: 0.7108
+
+Epoch 00050: val_acc did not improve from 0.71320
+HELLO 50 : 0.7108
+Epoch 51/200
+ - 24s - loss: 0.7998 - acc: 0.7160 - val_loss: 0.9084 - val_acc: 0.6976
+
+Epoch 00051: val_acc did not improve from 0.71320
+HELLO 51 : 0.6976
+Epoch 52/200
+ - 24s - loss: 0.8055 - acc: 0.7145 - val_loss: 0.8401 - val_acc: 0.7077
+
+Epoch 00052: val_acc did not improve from 0.71320
+HELLO 52 : 0.7077
+Epoch 53/200
+ - 24s - loss: 0.8037 - acc: 0.7154 - val_loss: 0.8888 - val_acc: 0.7015
+
+Epoch 00053: val_acc did not improve from 0.71320
+HELLO 53 : 0.7015
+Epoch 54/200
+ - 24s - loss: 0.7967 - acc: 0.7188 - val_loss: 0.8689 - val_acc: 0.7013
+
+Epoch 00054: val_acc did not improve from 0.71320
+HELLO 54 : 0.7013
+Epoch 55/200
+ - 24s - loss: 0.7990 - acc: 0.7191 - val_loss: 0.8191 - val_acc: 0.7207
+
+Epoch 00055: val_acc improved from 0.71320 to 0.72070, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.055.h5
+HELLO 55 : 0.7207
+Epoch 56/200
+ - 24s - loss: 0.7921 - acc: 0.7191 - val_loss: 0.8393 - val_acc: 0.7136
+
+Epoch 00056: val_acc did not improve from 0.72070
+HELLO 56 : 0.7136
+Epoch 57/200
+ - 23s - loss: 0.7980 - acc: 0.7187 - val_loss: 0.8461 - val_acc: 0.7138
+
+Epoch 00057: val_acc did not improve from 0.72070
+HELLO 57 : 0.7138
+Epoch 58/200
+ - 24s - loss: 0.7886 - acc: 0.7201 - val_loss: 0.8275 - val_acc: 0.7138
+
+Epoch 00058: val_acc did not improve from 0.72070
+HELLO 58 : 0.7138
+Epoch 59/200
+ - 24s - loss: 0.7929 - acc: 0.7191 - val_loss: 0.8490 - val_acc: 0.7139
+
+Epoch 00059: val_acc did not improve from 0.72070
+HELLO 59 : 0.7139
+Epoch 60/200
+ - 24s - loss: 0.7899 - acc: 0.7201 - val_loss: 0.8334 - val_acc: 0.7094
+
+Epoch 00060: val_acc did not improve from 0.72070
+HELLO 60 : 0.7094
+Epoch 61/200
+ - 24s - loss: 0.7846 - acc: 0.7210 - val_loss: 0.8431 - val_acc: 0.7128
+
+Epoch 00061: val_acc did not improve from 0.72070
+HELLO 61 : 0.7128
+Epoch 62/200
+ - 24s - loss: 0.7885 - acc: 0.7206 - val_loss: 0.8375 - val_acc: 0.7149
+
+Epoch 00062: val_acc did not improve from 0.72070
+HELLO 62 : 0.7149
+Epoch 63/200
+ - 24s - loss: 0.7802 - acc: 0.7249 - val_loss: 0.8643 - val_acc: 0.7077
+
+Epoch 00063: val_acc did not improve from 0.72070
+HELLO 63 : 0.7077
+Epoch 64/200
+ - 24s - loss: 0.7842 - acc: 0.7231 - val_loss: 0.8540 - val_acc: 0.7073
+
+Epoch 00064: val_acc did not improve from 0.72070
+HELLO 64 : 0.7073
+Epoch 65/200
+ - 23s - loss: 0.7867 - acc: 0.7214 - val_loss: 0.8501 - val_acc: 0.7095
+
+Epoch 00065: val_acc did not improve from 0.72070
+HELLO 65 : 0.7095
+Epoch 66/200
+ - 24s - loss: 0.7795 - acc: 0.7249 - val_loss: 0.8641 - val_acc: 0.7086
+
+Epoch 00066: val_acc did not improve from 0.72070
+HELLO 66 : 0.7086
+Epoch 67/200
+ - 24s - loss: 0.7794 - acc: 0.7228 - val_loss: 0.8359 - val_acc: 0.7105
+
+Epoch 00067: val_acc did not improve from 0.72070
+HELLO 67 : 0.7105
+Epoch 68/200
+ - 24s - loss: 0.7772 - acc: 0.7251 - val_loss: 0.8317 - val_acc: 0.7166
+
+Epoch 00068: val_acc did not improve from 0.72070
+HELLO 68 : 0.7166
+Epoch 69/200
+ - 24s - loss: 0.7808 - acc: 0.7236 - val_loss: 0.8444 - val_acc: 0.7097
+
+Epoch 00069: val_acc did not improve from 0.72070
+HELLO 69 : 0.7097
+Epoch 70/200
+ - 24s - loss: 0.7748 - acc: 0.7255 - val_loss: 0.7977 - val_acc: 0.7275
+
+Epoch 00070: val_acc improved from 0.72070 to 0.72750, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.070.h5
+HELLO 70 : 0.7275
+Epoch 71/200
+ - 24s - loss: 0.7742 - acc: 0.7255 - val_loss: 0.8168 - val_acc: 0.7237
+
+Epoch 00071: val_acc did not improve from 0.72750
+HELLO 71 : 0.7237
+Epoch 72/200
+ - 24s - loss: 0.7734 - acc: 0.7252 - val_loss: 0.8492 - val_acc: 0.7130
+
+Epoch 00072: val_acc did not improve from 0.72750
+HELLO 72 : 0.713
+Epoch 73/200
+ - 24s - loss: 0.7705 - acc: 0.7276 - val_loss: 0.8829 - val_acc: 0.7014
+
+Epoch 00073: val_acc did not improve from 0.72750
+HELLO 73 : 0.7014
+Epoch 74/200
+ - 24s - loss: 0.7732 - acc: 0.7268 - val_loss: 0.8830 - val_acc: 0.7058
+
+Epoch 00074: val_acc did not improve from 0.72750
+HELLO 74 : 0.7058
+Epoch 75/200
+ - 24s - loss: 0.7686 - acc: 0.7271 - val_loss: 0.8672 - val_acc: 0.7067
+
+Epoch 00075: val_acc did not improve from 0.72750
+HELLO 75 : 0.7067
+Epoch 76/200
+ - 24s - loss: 0.7662 - acc: 0.7298 - val_loss: 0.8355 - val_acc: 0.7129
+
+Epoch 00076: val_acc did not improve from 0.72750
+HELLO 76 : 0.7129
+Epoch 77/200
+ - 24s - loss: 0.7643 - acc: 0.7279 - val_loss: 0.8525 - val_acc: 0.7094
+
+Epoch 00077: val_acc did not improve from 0.72750
+HELLO 77 : 0.7094
+Epoch 78/200
+ - 24s - loss: 0.7698 - acc: 0.7290 - val_loss: 0.8546 - val_acc: 0.7083
+
+Epoch 00078: val_acc did not improve from 0.72750
+HELLO 78 : 0.7083
+Epoch 79/200
+ - 24s - loss: 0.7659 - acc: 0.7285 - val_loss: 0.8639 - val_acc: 0.7094
+
+Epoch 00079: val_acc did not improve from 0.72750
+HELLO 79 : 0.7094
+Epoch 80/200
+ - 24s - loss: 0.7660 - acc: 0.7289 - val_loss: 0.8462 - val_acc: 0.7171
+
+Epoch 00080: val_acc did not improve from 0.72750
+HELLO 80 : 0.7171
+Epoch 81/200
+ - 24s - loss: 0.7619 - acc: 0.7315 - val_loss: 0.8042 - val_acc: 0.7259
+
+Epoch 00081: val_acc did not improve from 0.72750
+HELLO 81 : 0.7259
+Epoch 82/200
+ - 24s - loss: 0.7597 - acc: 0.7316 - val_loss: 0.8204 - val_acc: 0.7267
+
+Epoch 00082: val_acc did not improve from 0.72750
+HELLO 82 : 0.7267
+Epoch 83/200
+ - 24s - loss: 0.7635 - acc: 0.7286 - val_loss: 0.8098 - val_acc: 0.7219
+
+Epoch 00083: val_acc did not improve from 0.72750
+HELLO 83 : 0.7219
+Epoch 84/200
+ - 24s - loss: 0.7660 - acc: 0.7281 - val_loss: 0.8620 - val_acc: 0.7044
+
+Epoch 00084: val_acc did not improve from 0.72750
+HELLO 84 : 0.7044
+Epoch 85/200
+ - 24s - loss: 0.7560 - acc: 0.7338 - val_loss: 0.8442 - val_acc: 0.7145
+
+Epoch 00085: val_acc did not improve from 0.72750
+HELLO 85 : 0.7145
+Epoch 86/200
+ - 24s - loss: 0.7545 - acc: 0.7320 - val_loss: 0.8382 - val_acc: 0.7158
+
+Epoch 00086: val_acc did not improve from 0.72750
+HELLO 86 : 0.7158
+Epoch 87/200
+ - 24s - loss: 0.7544 - acc: 0.7329 - val_loss: 0.8498 - val_acc: 0.7125
+
+Epoch 00087: val_acc did not improve from 0.72750
+HELLO 87 : 0.7125
+Epoch 88/200
+ - 24s - loss: 0.7593 - acc: 0.7305 - val_loss: 0.8564 - val_acc: 0.7062
+
+Epoch 00088: val_acc did not improve from 0.72750
+HELLO 88 : 0.7062
+Epoch 89/200
+ - 24s - loss: 0.7591 - acc: 0.7313 - val_loss: 0.8265 - val_acc: 0.7206
+
+Epoch 00089: val_acc did not improve from 0.72750
+HELLO 89 : 0.7206
+Epoch 90/200
+ - 24s - loss: 0.7591 - acc: 0.7318 - val_loss: 0.8520 - val_acc: 0.7127
+
+Epoch 00090: val_acc did not improve from 0.72750
+HELLO 90 : 0.7127
+Epoch 91/200
+ - 24s - loss: 0.7574 - acc: 0.7319 - val_loss: 0.8414 - val_acc: 0.7168
+
+Epoch 00091: val_acc did not improve from 0.72750
+HELLO 91 : 0.7168
+Epoch 92/200
+ - 24s - loss: 0.7555 - acc: 0.7320 - val_loss: 0.8486 - val_acc: 0.7137
+
+Epoch 00092: val_acc did not improve from 0.72750
+HELLO 92 : 0.7137
+Epoch 93/200
+ - 24s - loss: 0.7534 - acc: 0.7342 - val_loss: 0.8378 - val_acc: 0.7179
+
+Epoch 00093: val_acc did not improve from 0.72750
+HELLO 93 : 0.7179
+Epoch 94/200
+ - 24s - loss: 0.7548 - acc: 0.7328 - val_loss: 0.8397 - val_acc: 0.7154
+
+Epoch 00094: val_acc did not improve from 0.72750
+HELLO 94 : 0.7154
+Epoch 95/200
+ - 24s - loss: 0.7535 - acc: 0.7343 - val_loss: 0.8278 - val_acc: 0.7177
+
+Epoch 00095: val_acc did not improve from 0.72750
+HELLO 95 : 0.7177
+Epoch 96/200
+ - 24s - loss: 0.7507 - acc: 0.7350 - val_loss: 0.8150 - val_acc: 0.7210
+
+Epoch 00096: val_acc did not improve from 0.72750
+HELLO 96 : 0.721
+Epoch 97/200
+ - 24s - loss: 0.7532 - acc: 0.7321 - val_loss: 0.8229 - val_acc: 0.7204
+
+Epoch 00097: val_acc did not improve from 0.72750
+HELLO 97 : 0.7204
+Epoch 98/200
+ - 24s - loss: 0.7422 - acc: 0.7376 - val_loss: 0.8473 - val_acc: 0.7142
+
+Epoch 00098: val_acc did not improve from 0.72750
+HELLO 98 : 0.7142
+Epoch 99/200
+ - 24s - loss: 0.7516 - acc: 0.7325 - val_loss: 0.8138 - val_acc: 0.7237
+
+Epoch 00099: val_acc did not improve from 0.72750
+HELLO 99 : 0.7237
+Epoch 100/200
+ - 24s - loss: 0.7482 - acc: 0.7348 - val_loss: 0.8253 - val_acc: 0.7184
+
+Epoch 00100: val_acc did not improve from 0.72750
+HELLO 100 : 0.7184
+Epoch 101/200
+ - 24s - loss: 0.7437 - acc: 0.7367 - val_loss: 0.8072 - val_acc: 0.7270
+
+Epoch 00101: val_acc did not improve from 0.72750
+HELLO 101 : 0.727
+Epoch 102/200
+ - 24s - loss: 0.7460 - acc: 0.7385 - val_loss: 0.8507 - val_acc: 0.7129
+
+Epoch 00102: val_acc did not improve from 0.72750
+HELLO 102 : 0.7129
+Epoch 103/200
+ - 24s - loss: 0.7435 - acc: 0.7365 - val_loss: 0.8610 - val_acc: 0.7141
+
+Epoch 00103: val_acc did not improve from 0.72750
+HELLO 103 : 0.7141
+Epoch 104/200
+ - 24s - loss: 0.7445 - acc: 0.7383 - val_loss: 0.8202 - val_acc: 0.7211
+
+Epoch 00104: val_acc did not improve from 0.72750
+HELLO 104 : 0.7211
+Epoch 105/200
+ - 24s - loss: 0.7438 - acc: 0.7382 - val_loss: 0.8649 - val_acc: 0.7102
+
+Epoch 00105: val_acc did not improve from 0.72750
+HELLO 105 : 0.7102
+Epoch 106/200
+ - 24s - loss: 0.7405 - acc: 0.7377 - val_loss: 0.8350 - val_acc: 0.7199
+
+Epoch 00106: val_acc did not improve from 0.72750
+HELLO 106 : 0.7199
+Epoch 107/200
+ - 24s - loss: 0.7414 - acc: 0.7369 - val_loss: 0.8618 - val_acc: 0.7144
+
+Epoch 00107: val_acc did not improve from 0.72750
+HELLO 107 : 0.7144
+Epoch 108/200
+ - 24s - loss: 0.7428 - acc: 0.7355 - val_loss: 0.8130 - val_acc: 0.7224
+
+Epoch 00108: val_acc did not improve from 0.72750
+HELLO 108 : 0.7224
+Epoch 109/200
+ - 24s - loss: 0.7429 - acc: 0.7385 - val_loss: 0.8442 - val_acc: 0.7159
+
+Epoch 00109: val_acc did not improve from 0.72750
+HELLO 109 : 0.7159
+Epoch 110/200
+ - 24s - loss: 0.7452 - acc: 0.7364 - val_loss: 0.8537 - val_acc: 0.7114
+
+Epoch 00110: val_acc did not improve from 0.72750
+HELLO 110 : 0.7114
+Epoch 111/200
+ - 24s - loss: 0.7377 - acc: 0.7379 - val_loss: 0.8211 - val_acc: 0.7216
+
+Epoch 00111: val_acc did not improve from 0.72750
+HELLO 111 : 0.7216
+Epoch 112/200
+ - 24s - loss: 0.7444 - acc: 0.7373 - val_loss: 0.8150 - val_acc: 0.7276
+
+Epoch 00112: val_acc improved from 0.72750 to 0.72760, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.112.h5
+HELLO 112 : 0.7276
+Epoch 113/200
+ - 24s - loss: 0.7414 - acc: 0.7378 - val_loss: 0.8308 - val_acc: 0.7197
+
+Epoch 00113: val_acc did not improve from 0.72760
+HELLO 113 : 0.7197
+Epoch 114/200
+ - 24s - loss: 0.7379 - acc: 0.7415 - val_loss: 0.8341 - val_acc: 0.7204
+
+Epoch 00114: val_acc did not improve from 0.72760
+HELLO 114 : 0.7204
+Epoch 115/200
+ - 24s - loss: 0.7374 - acc: 0.7397 - val_loss: 0.8332 - val_acc: 0.7236
+
+Epoch 00115: val_acc did not improve from 0.72760
+HELLO 115 : 0.7236
+Epoch 116/200
+ - 24s - loss: 0.7301 - acc: 0.7431 - val_loss: 0.8112 - val_acc: 0.7253
+
+Epoch 00116: val_acc did not improve from 0.72760
+HELLO 116 : 0.7253
+Epoch 117/200
+ - 24s - loss: 0.7430 - acc: 0.7385 - val_loss: 0.8597 - val_acc: 0.7124
+
+Epoch 00117: val_acc did not improve from 0.72760
+HELLO 117 : 0.7124
+Epoch 118/200
+ - 24s - loss: 0.7414 - acc: 0.7388 - val_loss: 0.8379 - val_acc: 0.7145
+
+Epoch 00118: val_acc did not improve from 0.72760
+HELLO 118 : 0.7145
+Epoch 119/200
+ - 24s - loss: 0.7330 - acc: 0.7395 - val_loss: 0.8180 - val_acc: 0.7268
+
+Epoch 00119: val_acc did not improve from 0.72760
+HELLO 119 : 0.7268
+Epoch 120/200
+ - 24s - loss: 0.7346 - acc: 0.7407 - val_loss: 0.8307 - val_acc: 0.7190
+
+Epoch 00120: val_acc did not improve from 0.72760
+HELLO 120 : 0.719
+Epoch 121/200
+ - 24s - loss: 0.7364 - acc: 0.7373 - val_loss: 0.8260 - val_acc: 0.7242
+
+Epoch 00121: val_acc did not improve from 0.72760
+HELLO 121 : 0.7242
+Epoch 122/200
+ - 24s - loss: 0.7324 - acc: 0.7426 - val_loss: 0.8630 - val_acc: 0.7147
+
+Epoch 00122: val_acc did not improve from 0.72760
+HELLO 122 : 0.7147
+Epoch 123/200
+ - 24s - loss: 0.7376 - acc: 0.7388 - val_loss: 0.8246 - val_acc: 0.7191
+
+Epoch 00123: val_acc did not improve from 0.72760
+HELLO 123 : 0.7191
+Epoch 124/200
+ - 24s - loss: 0.7320 - acc: 0.7400 - val_loss: 0.8454 - val_acc: 0.7169
+
+Epoch 00124: val_acc did not improve from 0.72760
+HELLO 124 : 0.7169
+Epoch 125/200
+ - 24s - loss: 0.7331 - acc: 0.7411 - val_loss: 0.8448 - val_acc: 0.7161
+
+Epoch 00125: val_acc did not improve from 0.72760
+HELLO 125 : 0.7161
+Epoch 126/200
+ - 24s - loss: 0.7325 - acc: 0.7410 - val_loss: 0.8608 - val_acc: 0.7158
+
+Epoch 00126: val_acc did not improve from 0.72760
+HELLO 126 : 0.7158
+Epoch 127/200
+ - 24s - loss: 0.7297 - acc: 0.7412 - val_loss: 0.8431 - val_acc: 0.7162
+
+Epoch 00127: val_acc did not improve from 0.72760
+HELLO 127 : 0.7162
+Epoch 128/200
+ - 24s - loss: 0.7310 - acc: 0.7418 - val_loss: 0.8242 - val_acc: 0.7273
+
+Epoch 00128: val_acc did not improve from 0.72760
+HELLO 128 : 0.7273
+Epoch 129/200
+ - 24s - loss: 0.7336 - acc: 0.7397 - val_loss: 0.8395 - val_acc: 0.7209
+
+Epoch 00129: val_acc did not improve from 0.72760
+HELLO 129 : 0.7209
+Epoch 130/200
+ - 24s - loss: 0.7301 - acc: 0.7428 - val_loss: 0.8260 - val_acc: 0.7256
+
+Epoch 00130: val_acc did not improve from 0.72760
+HELLO 130 : 0.7256
+Epoch 131/200
+ - 24s - loss: 0.7313 - acc: 0.7418 - val_loss: 0.8544 - val_acc: 0.7164
+
+Epoch 00131: val_acc did not improve from 0.72760
+HELLO 131 : 0.7164
+Epoch 132/200
+ - 24s - loss: 0.7291 - acc: 0.7429 - val_loss: 0.8541 - val_acc: 0.7142
+
+Epoch 00132: val_acc did not improve from 0.72760
+HELLO 132 : 0.7142
+Epoch 133/200
+ - 24s - loss: 0.7308 - acc: 0.7419 - val_loss: 0.8053 - val_acc: 0.7275
+
+Epoch 00133: val_acc did not improve from 0.72760
+HELLO 133 : 0.7275
+Epoch 134/200
+ - 24s - loss: 0.7227 - acc: 0.7450 - val_loss: 0.8302 - val_acc: 0.7269
+
+Epoch 00134: val_acc did not improve from 0.72760
+HELLO 134 : 0.7269
+Epoch 135/200
+ - 24s - loss: 0.7265 - acc: 0.7429 - val_loss: 0.7942 - val_acc: 0.7293
+
+Epoch 00135: val_acc improved from 0.72760 to 0.72930, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.135.h5
+HELLO 135 : 0.7293
+Epoch 136/200
+ - 24s - loss: 0.7265 - acc: 0.7441 - val_loss: 0.8330 - val_acc: 0.7213
+
+Epoch 00136: val_acc did not improve from 0.72930
+HELLO 136 : 0.7213
+Epoch 137/200
+ - 24s - loss: 0.7307 - acc: 0.7405 - val_loss: 0.8271 - val_acc: 0.7243
+
+Epoch 00137: val_acc did not improve from 0.72930
+HELLO 137 : 0.7243
+Epoch 138/200
+ - 24s - loss: 0.7235 - acc: 0.7459 - val_loss: 0.7982 - val_acc: 0.7337
+
+Epoch 00138: val_acc improved from 0.72930 to 0.73370, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.138.h5
+HELLO 138 : 0.7337
+Epoch 139/200
+ - 24s - loss: 0.7351 - acc: 0.7391 - val_loss: 0.8145 - val_acc: 0.7252
+
+Epoch 00139: val_acc did not improve from 0.73370
+HELLO 139 : 0.7252
+Epoch 140/200
+ - 24s - loss: 0.7250 - acc: 0.7446 - val_loss: 0.8501 - val_acc: 0.7137
+
+Epoch 00140: val_acc did not improve from 0.73370
+HELLO 140 : 0.7137
+Epoch 141/200
+ - 24s - loss: 0.7235 - acc: 0.7433 - val_loss: 0.8244 - val_acc: 0.7252
+
+Epoch 00141: val_acc did not improve from 0.73370
+HELLO 141 : 0.7252
+Epoch 142/200
+ - 24s - loss: 0.7222 - acc: 0.7461 - val_loss: 0.8418 - val_acc: 0.7180
+
+Epoch 00142: val_acc did not improve from 0.73370
+HELLO 142 : 0.718
+Epoch 143/200
+ - 24s - loss: 0.7257 - acc: 0.7442 - val_loss: 0.8170 - val_acc: 0.7242
+
+Epoch 00143: val_acc did not improve from 0.73370
+HELLO 143 : 0.7242
+Epoch 144/200
+ - 24s - loss: 0.7269 - acc: 0.7437 - val_loss: 0.8616 - val_acc: 0.7157
+
+Epoch 00144: val_acc did not improve from 0.73370
+HELLO 144 : 0.7157
+Epoch 145/200
+ - 24s - loss: 0.7193 - acc: 0.7449 - val_loss: 0.8496 - val_acc: 0.7152
+
+Epoch 00145: val_acc did not improve from 0.73370
+HELLO 145 : 0.7152
+Epoch 146/200
+ - 24s - loss: 0.7272 - acc: 0.7419 - val_loss: 0.8276 - val_acc: 0.7209
+
+Epoch 00146: val_acc did not improve from 0.73370
+HELLO 146 : 0.7209
+Epoch 147/200
+ - 24s - loss: 0.7223 - acc: 0.7462 - val_loss: 0.8526 - val_acc: 0.7189
+
+Epoch 00147: val_acc did not improve from 0.73370
+HELLO 147 : 0.7189
+Epoch 148/200
+ - 24s - loss: 0.7238 - acc: 0.7424 - val_loss: 0.8175 - val_acc: 0.7253
+
+Epoch 00148: val_acc did not improve from 0.73370
+HELLO 148 : 0.7253
+Epoch 149/200
+ - 24s - loss: 0.7305 - acc: 0.7444 - val_loss: 0.8029 - val_acc: 0.7304
+
+Epoch 00149: val_acc did not improve from 0.73370
+HELLO 149 : 0.7304
+Epoch 150/200
+ - 24s - loss: 0.7273 - acc: 0.7420 - val_loss: 0.8383 - val_acc: 0.7211
+
+Epoch 00150: val_acc did not improve from 0.73370
+HELLO 150 : 0.7211
+Epoch 151/200
+ - 24s - loss: 0.7253 - acc: 0.7433 - val_loss: 0.8058 - val_acc: 0.7311
+
+Epoch 00151: val_acc did not improve from 0.73370
+HELLO 151 : 0.7311
+Epoch 152/200
+ - 24s - loss: 0.7177 - acc: 0.7458 - val_loss: 0.8268 - val_acc: 0.7276
+
+Epoch 00152: val_acc did not improve from 0.73370
+HELLO 152 : 0.7276
+Epoch 153/200
+ - 24s - loss: 0.7245 - acc: 0.7437 - val_loss: 0.8115 - val_acc: 0.7323
+
+Epoch 00153: val_acc did not improve from 0.73370
+HELLO 153 : 0.7323
+Epoch 154/200
+ - 24s - loss: 0.7171 - acc: 0.7477 - val_loss: 0.8049 - val_acc: 0.7297
+
+Epoch 00154: val_acc did not improve from 0.73370
+HELLO 154 : 0.7297
+Epoch 155/200
+ - 24s - loss: 0.7246 - acc: 0.7417 - val_loss: 0.8385 - val_acc: 0.7203
+
+Epoch 00155: val_acc did not improve from 0.73370
+HELLO 155 : 0.7203
+Epoch 156/200
+ - 24s - loss: 0.7230 - acc: 0.7429 - val_loss: 0.8538 - val_acc: 0.7202
+
+Epoch 00156: val_acc did not improve from 0.73370
+HELLO 156 : 0.7202
+Epoch 157/200
+ - 24s - loss: 0.7226 - acc: 0.7453 - val_loss: 0.9161 - val_acc: 0.7062
+
+Epoch 00157: val_acc did not improve from 0.73370
+HELLO 157 : 0.7062
+Epoch 158/200
+ - 24s - loss: 0.7205 - acc: 0.7436 - val_loss: 0.8209 - val_acc: 0.7212
+
+Epoch 00158: val_acc did not improve from 0.73370
+HELLO 158 : 0.7212
+Epoch 159/200
+ - 24s - loss: 0.7207 - acc: 0.7432 - val_loss: 0.8529 - val_acc: 0.7211
+
+Epoch 00159: val_acc did not improve from 0.73370
+HELLO 159 : 0.7211
+Epoch 160/200
+ - 24s - loss: 0.7196 - acc: 0.7460 - val_loss: 0.8723 - val_acc: 0.7140
+
+Epoch 00160: val_acc did not improve from 0.73370
+HELLO 160 : 0.714
+Epoch 161/200
+ - 24s - loss: 0.7184 - acc: 0.7470 - val_loss: 0.8388 - val_acc: 0.7232
+
+Epoch 00161: val_acc did not improve from 0.73370
+HELLO 161 : 0.7232
+Epoch 162/200
+ - 24s - loss: 0.7141 - acc: 0.7479 - val_loss: 0.7879 - val_acc: 0.7370
+
+Epoch 00162: val_acc improved from 0.73370 to 0.73700, saving model to D:\PycharmProjects\NIPS_1_DNFIS\LeNet\CIFAR_LENET_saved_models\CIFAR-LeNet_model.162.h5
+HELLO 162 : 0.737
+Epoch 163/200
+ - 24s - loss: 0.7163 - acc: 0.7455 - val_loss: 0.8445 - val_acc: 0.7232
+
+Epoch 00163: val_acc did not improve from 0.73700
+HELLO 163 : 0.7232
+Epoch 164/200
+ - 24s - loss: 0.7234 - acc: 0.7458 - val_loss: 0.8099 - val_acc: 0.7317
+
+Epoch 00164: val_acc did not improve from 0.73700
+HELLO 164 : 0.7317
+Epoch 165/200
+ - 23s - loss: 0.7147 - acc: 0.7442 - val_loss: 0.8480 - val_acc: 0.7215
+
+Epoch 00165: val_acc did not improve from 0.73700
+HELLO 165 : 0.7215
+Epoch 166/200
+ - 24s - loss: 0.7179 - acc: 0.7458 - val_loss: 0.8153 - val_acc: 0.7297
+
+Epoch 00166: val_acc did not improve from 0.73700
+HELLO 166 : 0.7297
+Epoch 167/200
+ - 24s - loss: 0.7193 - acc: 0.7471 - val_loss: 0.8143 - val_acc: 0.7291
+
+Epoch 00167: val_acc did not improve from 0.73700
+HELLO 167 : 0.7291
+Epoch 168/200
+ - 24s - loss: 0.7165 - acc: 0.7463 - val_loss: 0.8224 - val_acc: 0.7268
+
+Epoch 00168: val_acc did not improve from 0.73700
+HELLO 168 : 0.7268
+Epoch 169/200
+ - 24s - loss: 0.7132 - acc: 0.7483 - val_loss: 0.8204 - val_acc: 0.7228
+
+Epoch 00169: val_acc did not improve from 0.73700
+HELLO 169 : 0.7228
+Epoch 170/200
+ - 24s - loss: 0.7140 - acc: 0.7467 - val_loss: 0.8506 - val_acc: 0.7208
+
+Epoch 00170: val_acc did not improve from 0.73700
+HELLO 170 : 0.7208
+Epoch 171/200
+ - 24s - loss: 0.7159 - acc: 0.7467 - val_loss: 0.8233 - val_acc: 0.7263
+
+Epoch 00171: val_acc did not improve from 0.73700
+HELLO 171 : 0.7263
+Epoch 172/200
+ - 24s - loss: 0.7164 - acc: 0.7477 - val_loss: 0.8634 - val_acc: 0.7177
+
+Epoch 00172: val_acc did not improve from 0.73700
+HELLO 172 : 0.7177
+Epoch 173/200
+ - 24s - loss: 0.7132 - acc: 0.7482 - val_loss: 0.7942 - val_acc: 0.7295
+
+Epoch 00173: val_acc did not improve from 0.73700
+HELLO 173 : 0.7295
+Epoch 174/200
+ - 24s - loss: 0.7109 - acc: 0.7478 - val_loss: 0.8213 - val_acc: 0.7290
+
+Epoch 00174: val_acc did not improve from 0.73700
+HELLO 174 : 0.729
+Epoch 175/200
+ - 24s - loss: 0.7139 - acc: 0.7490 - val_loss: 0.7912 - val_acc: 0.7349
+
+Epoch 00175: val_acc did not improve from 0.73700
+HELLO 175 : 0.7349
+Epoch 176/200
+ - 24s - loss: 0.7114 - acc: 0.7492 - val_loss: 0.8367 - val_acc: 0.7241
+
+Epoch 00176: val_acc did not improve from 0.73700
+HELLO 176 : 0.7241
+Epoch 177/200
+ - 24s - loss: 0.7214 - acc: 0.7471 - val_loss: 0.8262 - val_acc: 0.7227
+
+Epoch 00177: val_acc did not improve from 0.73700
+HELLO 177 : 0.7227
+Epoch 178/200
+ - 24s - loss: 0.7118 - acc: 0.7478 - val_loss: 0.7992 - val_acc: 0.7281
+
+Epoch 00178: val_acc did not improve from 0.73700
+HELLO 178 : 0.7281
+Epoch 179/200
+ - 24s - loss: 0.7145 - acc: 0.7470 - val_loss: 0.8264 - val_acc: 0.7224
+
+Epoch 00179: val_acc did not improve from 0.73700
+HELLO 179 : 0.7224
+Epoch 180/200
+ - 24s - loss: 0.7137 - acc: 0.7483 - val_loss: 0.8059 - val_acc: 0.7308
+
+Epoch 00180: val_acc did not improve from 0.73700
+HELLO 180 : 0.7308
+Epoch 181/200
+ - 24s - loss: 0.7099 - acc: 0.7489 - val_loss: 0.8283 - val_acc: 0.7276
+
+Epoch 00181: val_acc did not improve from 0.73700
+HELLO 181 : 0.7276
+Epoch 182/200
+ - 24s - loss: 0.7067 - acc: 0.7489 - val_loss: 0.8204 - val_acc: 0.7262
+
+Epoch 00182: val_acc did not improve from 0.73700
+HELLO 182 : 0.7262
+Epoch 183/200
+ - 24s - loss: 0.7119 - acc: 0.7494 - val_loss: 0.8246 - val_acc: 0.7267
+
+Epoch 00183: val_acc did not improve from 0.73700
+HELLO 183 : 0.7267
+Epoch 184/200
+ - 24s - loss: 0.7126 - acc: 0.7490 - val_loss: 0.8142 - val_acc: 0.7294
+
+Epoch 00184: val_acc did not improve from 0.73700
+HELLO 184 : 0.7294
+Epoch 185/200
+ - 24s - loss: 0.7082 - acc: 0.7497 - val_loss: 0.8003 - val_acc: 0.7292
+
+Epoch 00185: val_acc did not improve from 0.73700
+HELLO 185 : 0.7292
+Epoch 186/200
+ - 24s - loss: 0.7156 - acc: 0.7466 - val_loss: 0.8477 - val_acc: 0.7209
+
+Epoch 00186: val_acc did not improve from 0.73700
+HELLO 186 : 0.7209
+Epoch 187/200
+ - 24s - loss: 0.7090 - acc: 0.7480 - val_loss: 0.8587 - val_acc: 0.7154
+
+Epoch 00187: val_acc did not improve from 0.73700
+HELLO 187 : 0.7154
+Epoch 188/200
+ - 24s - loss: 0.7014 - acc: 0.7523 - val_loss: 0.8343 - val_acc: 0.7267
+
+Epoch 00188: val_acc did not improve from 0.73700
+HELLO 188 : 0.7267
+Epoch 189/200
+ - 24s - loss: 0.7112 - acc: 0.7477 - val_loss: 0.8462 - val_acc: 0.7230
+
+Epoch 00189: val_acc did not improve from 0.73700
+HELLO 189 : 0.723
+Epoch 190/200
+ - 24s - loss: 0.7106 - acc: 0.7498 - val_loss: 0.8286 - val_acc: 0.7279
+
+Epoch 00190: val_acc did not improve from 0.73700
+HELLO 190 : 0.7279
+Epoch 191/200
+ - 24s - loss: 0.7086 - acc: 0.7492 - val_loss: 0.8090 - val_acc: 0.7313
+
+Epoch 00191: val_acc did not improve from 0.73700
+HELLO 191 : 0.7313
+Epoch 192/200
+ - 24s - loss: 0.7073 - acc: 0.7494 - val_loss: 0.8584 - val_acc: 0.7210
+
+Epoch 00192: val_acc did not improve from 0.73700
+HELLO 192 : 0.721
+Epoch 193/200
+ - 24s - loss: 0.7123 - acc: 0.7479 - val_loss: 0.8110 - val_acc: 0.7300
+
+Epoch 00193: val_acc did not improve from 0.73700
+HELLO 193 : 0.73
+Epoch 194/200
+ - 24s - loss: 0.7161 - acc: 0.7447 - val_loss: 0.8158 - val_acc: 0.7312
+
+Epoch 00194: val_acc did not improve from 0.73700
+HELLO 194 : 0.7312
+Epoch 195/200
+ - 24s - loss: 0.7079 - acc: 0.7509 - val_loss: 0.7926 - val_acc: 0.7333
+
+Epoch 00195: val_acc did not improve from 0.73700
+HELLO 195 : 0.7333
+Epoch 196/200
+ - 24s - loss: 0.7107 - acc: 0.7489 - val_loss: 0.8198 - val_acc: 0.7301
+
+Epoch 00196: val_acc did not improve from 0.73700
+HELLO 196 : 0.7301
+Epoch 197/200
+ - 24s - loss: 0.7065 - acc: 0.7514 - val_loss: 0.8518 - val_acc: 0.7180
+
+Epoch 00197: val_acc did not improve from 0.73700
+HELLO 197 : 0.718
+Epoch 198/200
+ - 25s - loss: 0.7083 - acc: 0.7504 - val_loss: 0.8589 - val_acc: 0.7204
+
+Epoch 00198: val_acc did not improve from 0.73700
+HELLO 198 : 0.7204
+Epoch 199/200
+ - 26s - loss: 0.7076 - acc: 0.7499 - val_loss: 0.8692 - val_acc: 0.7150
+
+Epoch 00199: val_acc did not improve from 0.73700
+HELLO 199 : 0.715
+Epoch 200/200
+ - 25s - loss: 0.7063 - acc: 0.7505 - val_loss: 0.8170 - val_acc: 0.7290
+
+Epoch 00200: val_acc did not improve from 0.73700
+HELLO 200 : 0.729

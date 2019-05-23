@@ -1,0 +1,1006 @@
+Learning rate:  0.001
+Epoch 1/200
+Learning rate:  0.001
+1875/1875 [==============================] - 114s 61ms/step - loss: 1.0196 - acc: 0.7779 - val_loss: 1.0633 - val_acc: 0.7194
+
+Epoch 00001: val_acc improved from -inf to 0.71940, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.001.h5
+Epoch 2/200
+Learning rate:  0.001
+1875/1875 [==============================] - 85s 45ms/step - loss: 0.6930 - acc: 0.8435 - val_loss: 0.7156 - val_acc: 0.8166
+
+Epoch 00002: val_acc improved from 0.71940 to 0.81660, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.002.h5
+Epoch 3/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.5969 - acc: 0.8586 - val_loss: 0.6479 - val_acc: 0.8439
+
+Epoch 00003: val_acc improved from 0.81660 to 0.84390, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.003.h5
+Epoch 4/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.5464 - acc: 0.8669 - val_loss: 0.7202 - val_acc: 0.8149
+
+Epoch 00004: val_acc did not improve from 0.84390
+Epoch 5/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.5071 - acc: 0.8761 - val_loss: 0.5043 - val_acc: 0.8741
+
+Epoch 00005: val_acc improved from 0.84390 to 0.87410, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.005.h5
+Epoch 6/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.4844 - acc: 0.8799 - val_loss: 0.6094 - val_acc: 0.8324
+
+Epoch 00006: val_acc did not improve from 0.87410
+Epoch 7/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.4645 - acc: 0.8849 - val_loss: 0.5072 - val_acc: 0.8690
+
+Epoch 00007: val_acc did not improve from 0.87410
+Epoch 8/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.4479 - acc: 0.8880 - val_loss: 0.5159 - val_acc: 0.8631
+
+Epoch 00008: val_acc did not improve from 0.87410
+Epoch 9/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.4323 - acc: 0.8917 - val_loss: 0.5061 - val_acc: 0.8705
+
+Epoch 00009: val_acc did not improve from 0.87410
+Epoch 10/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.4241 - acc: 0.8930 - val_loss: 0.7304 - val_acc: 0.7976
+
+Epoch 00010: val_acc did not improve from 0.87410
+Epoch 11/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.4148 - acc: 0.8946 - val_loss: 0.5796 - val_acc: 0.8410
+
+Epoch 00011: val_acc did not improve from 0.87410
+Epoch 12/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.4053 - acc: 0.8963 - val_loss: 0.4716 - val_acc: 0.8804
+
+Epoch 00012: val_acc improved from 0.87410 to 0.88040, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.012.h5
+Epoch 13/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3966 - acc: 0.8988 - val_loss: 0.4039 - val_acc: 0.8955
+
+Epoch 00013: val_acc improved from 0.88040 to 0.89550, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.013.h5
+Epoch 14/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3932 - acc: 0.8994 - val_loss: 0.4370 - val_acc: 0.8796
+
+Epoch 00014: val_acc did not improve from 0.89550
+Epoch 15/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3835 - acc: 0.9013 - val_loss: 0.5991 - val_acc: 0.8183
+
+Epoch 00015: val_acc did not improve from 0.89550
+Epoch 16/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3784 - acc: 0.9036 - val_loss: 0.4760 - val_acc: 0.8659
+
+Epoch 00016: val_acc did not improve from 0.89550
+Epoch 17/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3713 - acc: 0.9029 - val_loss: 0.3822 - val_acc: 0.9062
+
+Epoch 00017: val_acc improved from 0.89550 to 0.90620, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.017.h5
+Epoch 18/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3676 - acc: 0.9048 - val_loss: 0.3975 - val_acc: 0.8952
+
+Epoch 00018: val_acc did not improve from 0.90620
+Epoch 19/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3656 - acc: 0.9052 - val_loss: 0.4451 - val_acc: 0.8775
+
+Epoch 00019: val_acc did not improve from 0.90620
+Epoch 20/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3597 - acc: 0.9065 - val_loss: 0.4272 - val_acc: 0.8863
+
+Epoch 00020: val_acc did not improve from 0.90620
+Epoch 21/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3564 - acc: 0.9089 - val_loss: 0.4232 - val_acc: 0.8868
+
+Epoch 00021: val_acc did not improve from 0.90620
+Epoch 22/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3512 - acc: 0.9094 - val_loss: 0.4096 - val_acc: 0.8898
+
+Epoch 00022: val_acc did not improve from 0.90620
+Epoch 23/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3493 - acc: 0.9094 - val_loss: 0.3588 - val_acc: 0.9069
+
+Epoch 00023: val_acc improved from 0.90620 to 0.90690, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.023.h5
+Epoch 24/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3445 - acc: 0.9100 - val_loss: 0.3597 - val_acc: 0.9065
+
+Epoch 00024: val_acc did not improve from 0.90690
+Epoch 25/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3419 - acc: 0.9119 - val_loss: 0.3642 - val_acc: 0.9032
+
+Epoch 00025: val_acc did not improve from 0.90690
+Epoch 26/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3401 - acc: 0.9104 - val_loss: 0.3795 - val_acc: 0.8989
+
+Epoch 00026: val_acc did not improve from 0.90690
+Epoch 27/200
+Learning rate:  0.001
+1875/1875 [==============================] - 85s 46ms/step - loss: 0.3385 - acc: 0.9124 - val_loss: 0.4415 - val_acc: 0.8750
+
+Epoch 00027: val_acc did not improve from 0.90690
+Epoch 28/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3346 - acc: 0.9127 - val_loss: 0.3589 - val_acc: 0.9092
+
+Epoch 00028: val_acc improved from 0.90690 to 0.90920, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.028.h5
+Epoch 29/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3346 - acc: 0.9111 - val_loss: 0.3456 - val_acc: 0.9096
+
+Epoch 00029: val_acc improved from 0.90920 to 0.90960, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.029.h5
+Epoch 30/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3297 - acc: 0.9132 - val_loss: 0.3926 - val_acc: 0.8926
+
+Epoch 00030: val_acc did not improve from 0.90960
+Epoch 31/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3309 - acc: 0.9137 - val_loss: 0.3803 - val_acc: 0.8968
+
+Epoch 00031: val_acc did not improve from 0.90960
+Epoch 32/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3264 - acc: 0.9143 - val_loss: 0.3881 - val_acc: 0.8931
+
+Epoch 00032: val_acc did not improve from 0.90960
+Epoch 33/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3239 - acc: 0.9150 - val_loss: 0.3343 - val_acc: 0.9157
+
+
+Epoch 00033: val_acc improved from 0.90960 to 0.91570, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.033.h5
+Epoch 34/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3238 - acc: 0.9149 - val_loss: 0.3503 - val_acc: 0.9054
+
+Epoch 00034: val_acc did not improve from 0.91570
+Epoch 35/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3213 - acc: 0.9144 - val_loss: 0.3208 - val_acc: 0.9186
+
+Epoch 00035: val_acc improved from 0.91570 to 0.91860, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.035.h5
+Epoch 36/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3199 - acc: 0.9167 - val_loss: 0.3711 - val_acc: 0.8976
+
+Epoch 00036: val_acc did not improve from 0.91860
+Epoch 37/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3174 - acc: 0.9158 - val_loss: 0.4871 - val_acc: 0.8620
+
+Epoch 00037: val_acc did not improve from 0.91860
+Epoch 38/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3193 - acc: 0.9159 - val_loss: 0.3394 - val_acc: 0.9121
+
+Epoch 00038: val_acc did not improve from 0.91860
+Epoch 39/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3153 - acc: 0.9172 - val_loss: 0.3457 - val_acc: 0.9085
+
+Epoch 00039: val_acc did not improve from 0.91860
+Epoch 40/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3133 - acc: 0.9175 - val_loss: 0.3681 - val_acc: 0.9018
+
+Epoch 00040: val_acc did not improve from 0.91860
+Epoch 41/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3113 - acc: 0.9181 - val_loss: 0.3739 - val_acc: 0.8975
+
+Epoch 00041: val_acc did not improve from 0.91860
+Epoch 42/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3121 - acc: 0.9174 - val_loss: 0.3329 - val_acc: 0.9121
+
+Epoch 00042: val_acc did not improve from 0.91860
+Epoch 43/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3105 - acc: 0.9168 - val_loss: 0.3663 - val_acc: 0.8950
+
+Epoch 00043: val_acc did not improve from 0.91860
+Epoch 44/200
+Learning rate:  0.001
+1875/1875 [==============================] - 85s 46ms/step - loss: 0.3032 - acc: 0.9205 - val_loss: 0.3788 - val_acc: 0.8986
+
+Epoch 00044: val_acc did not improve from 0.91860
+Epoch 45/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3074 - acc: 0.9183 - val_loss: 0.3587 - val_acc: 0.9011
+
+Epoch 00045: val_acc did not improve from 0.91860
+Epoch 46/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3057 - acc: 0.9180 - val_loss: 0.3258 - val_acc: 0.9128
+
+Epoch 00046: val_acc did not improve from 0.91860
+Epoch 47/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3033 - acc: 0.9194 - val_loss: 0.3251 - val_acc: 0.9150
+
+Epoch 00047: val_acc did not improve from 0.91860
+Epoch 48/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3058 - acc: 0.9187 - val_loss: 0.3319 - val_acc: 0.9124
+
+Epoch 00048: val_acc did not improve from 0.91860
+Epoch 49/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3029 - acc: 0.9193 - val_loss: 0.3712 - val_acc: 0.8928
+
+Epoch 00049: val_acc did not improve from 0.91860
+Epoch 50/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3030 - acc: 0.9192 - val_loss: 0.4267 - val_acc: 0.8713
+
+Epoch 00050: val_acc did not improve from 0.91860
+Epoch 51/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.3001 - acc: 0.9205 - val_loss: 0.3463 - val_acc: 0.9063
+
+Epoch 00051: val_acc did not improve from 0.91860
+Epoch 52/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2984 - acc: 0.9212 - val_loss: 0.3589 - val_acc: 0.9001
+
+Epoch 00052: val_acc did not improve from 0.91860
+Epoch 53/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2963 - acc: 0.9202 - val_loss: 0.3675 - val_acc: 0.8984
+
+Epoch 00053: val_acc did not improve from 0.91860
+Epoch 54/200
+Learning rate:  0.001
+1875/1875 [==============================] - 85s 46ms/step - loss: 0.2993 - acc: 0.9202 - val_loss: 0.3083 - val_acc: 0.9183
+
+Epoch 00054: val_acc did not improve from 0.91860
+Epoch 55/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2956 - acc: 0.9215 - val_loss: 0.3151 - val_acc: 0.9159
+
+Epoch 00055: val_acc did not improve from 0.91860
+Epoch 56/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2937 - acc: 0.9222 - val_loss: 0.3763 - val_acc: 0.8944
+
+Epoch 00056: val_acc did not improve from 0.91860
+Epoch 57/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2964 - acc: 0.9203 - val_loss: 0.3319 - val_acc: 0.9077
+
+Epoch 00057: val_acc did not improve from 0.91860
+Epoch 58/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2936 - acc: 0.9215 - val_loss: 0.3096 - val_acc: 0.9172
+
+Epoch 00058: val_acc did not improve from 0.91860
+Epoch 59/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2906 - acc: 0.9235 - val_loss: 0.3812 - val_acc: 0.8893
+
+Epoch 00059: val_acc did not improve from 0.91860
+Epoch 60/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2930 - acc: 0.9232 - val_loss: 0.3395 - val_acc: 0.9081
+
+Epoch 00060: val_acc did not improve from 0.91860
+Epoch 61/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2924 - acc: 0.9217 - val_loss: 0.3198 - val_acc: 0.9142
+
+Epoch 00061: val_acc did not improve from 0.91860
+Epoch 62/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2900 - acc: 0.9229 - val_loss: 0.3090 - val_acc: 0.9203
+
+Epoch 00062: val_acc improved from 0.91860 to 0.92030, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.062.h5
+Epoch 63/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2905 - acc: 0.9229 - val_loss: 0.3931 - val_acc: 0.8854
+
+Epoch 00063: val_acc did not improve from 0.92030
+Epoch 64/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2904 - acc: 0.9220 - val_loss: 0.3227 - val_acc: 0.9134
+
+Epoch 00064: val_acc did not improve from 0.92030
+Epoch 65/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2883 - acc: 0.9229 - val_loss: 0.3350 - val_acc: 0.9123
+
+Epoch 00065: val_acc did not improve from 0.92030
+Epoch 66/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2885 - acc: 0.9236 - val_loss: 0.3388 - val_acc: 0.9061
+
+Epoch 00066: val_acc did not improve from 0.92030
+Epoch 67/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2870 - acc: 0.9236 - val_loss: 0.3305 - val_acc: 0.9068
+
+Epoch 00067: val_acc did not improve from 0.92030
+Epoch 68/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2880 - acc: 0.9238 - val_loss: 0.3603 - val_acc: 0.8990
+
+Epoch 00068: val_acc did not improve from 0.92030
+Epoch 69/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2835 - acc: 0.9247 - val_loss: 0.3504 - val_acc: 0.9055
+
+Epoch 00069: val_acc did not improve from 0.92030
+Epoch 70/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2849 - acc: 0.9255 - val_loss: 0.3213 - val_acc: 0.9132
+
+
+Epoch 00070: val_acc did not improve from 0.92030
+Epoch 71/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2820 - acc: 0.9254 - val_loss: 0.3104 - val_acc: 0.9171
+
+Epoch 00071: val_acc did not improve from 0.92030
+Epoch 72/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2858 - acc: 0.9243 - val_loss: 0.3726 - val_acc: 0.8927
+
+Epoch 00072: val_acc did not improve from 0.92030
+Epoch 73/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2862 - acc: 0.9238 - val_loss: 0.3339 - val_acc: 0.9094
+
+Epoch 00073: val_acc did not improve from 0.92030
+Epoch 74/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2833 - acc: 0.9242 - val_loss: 0.3429 - val_acc: 0.9041
+
+Epoch 00074: val_acc did not improve from 0.92030
+Epoch 75/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2822 - acc: 0.9245 - val_loss: 0.3602 - val_acc: 0.8969
+
+Epoch 00075: val_acc did not improve from 0.92030
+Epoch 76/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2828 - acc: 0.9243 - val_loss: 0.3439 - val_acc: 0.9044
+
+Epoch 00076: val_acc did not improve from 0.92030
+Epoch 77/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2821 - acc: 0.9234 - val_loss: 0.3831 - val_acc: 0.8874
+
+Epoch 00077: val_acc did not improve from 0.92030
+Epoch 78/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2812 - acc: 0.9245 - val_loss: 0.3391 - val_acc: 0.9095
+
+Epoch 00078: val_acc did not improve from 0.92030
+Epoch 79/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2804 - acc: 0.9250 - val_loss: 0.3850 - val_acc: 0.8852
+
+Epoch 00079: val_acc did not improve from 0.92030
+Epoch 80/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2805 - acc: 0.9238 - val_loss: 0.3126 - val_acc: 0.9132
+
+Epoch 00080: val_acc did not improve from 0.92030
+Epoch 81/200
+Learning rate:  0.001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2799 - acc: 0.9257 - val_loss: 0.3164 - val_acc: 0.9174
+
+Epoch 00081: val_acc did not improve from 0.92030
+Epoch 82/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2471 - acc: 0.9376 - val_loss: 0.2655 - val_acc: 0.9295
+
+Epoch 00082: val_acc improved from 0.92030 to 0.92950, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.082.h5
+Epoch 83/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2328 - acc: 0.9425 - val_loss: 0.2603 - val_acc: 0.9316
+
+Epoch 00083: val_acc improved from 0.92950 to 0.93160, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.083.h5
+Epoch 84/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2265 - acc: 0.9435 - val_loss: 0.2540 - val_acc: 0.9335
+
+Epoch 00084: val_acc improved from 0.93160 to 0.93350, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.084.h5
+Epoch 85/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2231 - acc: 0.9453 - val_loss: 0.2518 - val_acc: 0.9345
+
+Epoch 00085: val_acc improved from 0.93350 to 0.93450, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.085.h5
+Epoch 86/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2198 - acc: 0.9452 - val_loss: 0.2502 - val_acc: 0.9343
+
+Epoch 00086: val_acc did not improve from 0.93450
+Epoch 87/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2165 - acc: 0.9462 - val_loss: 0.2509 - val_acc: 0.9344
+
+Epoch 00087: val_acc did not improve from 0.93450
+Epoch 88/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2131 - acc: 0.9465 - val_loss: 0.2449 - val_acc: 0.9360
+
+Epoch 00088: val_acc improved from 0.93450 to 0.93600, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.088.h5
+Epoch 89/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2100 - acc: 0.9481 - val_loss: 0.2452 - val_acc: 0.9363
+
+Epoch 00089: val_acc improved from 0.93600 to 0.93630, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.089.h5
+Epoch 90/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2099 - acc: 0.9469 - val_loss: 0.2472 - val_acc: 0.9338
+
+Epoch 00090: val_acc did not improve from 0.93630
+Epoch 91/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2068 - acc: 0.9479 - val_loss: 0.2455 - val_acc: 0.9346
+
+Epoch 00091: val_acc did not improve from 0.93630
+Epoch 92/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2037 - acc: 0.9483 - val_loss: 0.2418 - val_acc: 0.9359
+
+Epoch 00092: val_acc did not improve from 0.93630
+Epoch 93/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2028 - acc: 0.9480 - val_loss: 0.2428 - val_acc: 0.9352
+
+Epoch 00093: val_acc did not improve from 0.93630
+Epoch 94/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.2005 - acc: 0.9500 - val_loss: 0.2432 - val_acc: 0.9348
+
+Epoch 00094: val_acc did not improve from 0.93630
+Epoch 95/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1977 - acc: 0.9497 - val_loss: 0.2388 - val_acc: 0.9371
+
+Epoch 00095: val_acc improved from 0.93630 to 0.93710, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.095.h5
+Epoch 96/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1968 - acc: 0.9498 - val_loss: 0.2375 - val_acc: 0.9365
+
+Epoch 00096: val_acc did not improve from 0.93710
+Epoch 97/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1943 - acc: 0.9506 - val_loss: 0.2384 - val_acc: 0.9369
+
+Epoch 00097: val_acc did not improve from 0.93710
+Epoch 98/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1918 - acc: 0.9512 - val_loss: 0.2378 - val_acc: 0.9352
+
+Epoch 00098: val_acc did not improve from 0.93710
+Epoch 99/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1931 - acc: 0.9505 - val_loss: 0.2394 - val_acc: 0.9348
+
+Epoch 00099: val_acc did not improve from 0.93710
+Epoch 100/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1900 - acc: 0.9510 - val_loss: 0.2455 - val_acc: 0.9318
+
+Epoch 00100: val_acc did not improve from 0.93710
+Epoch 101/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1896 - acc: 0.9523 - val_loss: 0.2352 - val_acc: 0.9356
+
+Epoch 00101: val_acc did not improve from 0.93710
+Epoch 102/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1896 - acc: 0.9521 - val_loss: 0.2350 - val_acc: 0.9365
+
+Epoch 00102: val_acc did not improve from 0.93710
+Epoch 103/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1884 - acc: 0.9513 - val_loss: 0.2380 - val_acc: 0.9347
+
+Epoch 00103: val_acc did not improve from 0.93710
+Epoch 104/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1847 - acc: 0.9532 - val_loss: 0.2335 - val_acc: 0.9358
+
+Epoch 00104: val_acc did not improve from 0.93710
+Epoch 105/200
+Learning rate:  0.0001
+
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1846 - acc: 0.9521 - val_loss: 0.2414 - val_acc: 0.9330
+
+Epoch 00105: val_acc did not improve from 0.93710
+Epoch 106/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1840 - acc: 0.9528 - val_loss: 0.2370 - val_acc: 0.9347
+
+Epoch 00106: val_acc did not improve from 0.93710
+Epoch 107/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1837 - acc: 0.9518 - val_loss: 0.2323 - val_acc: 0.9357
+
+Epoch 00107: val_acc did not improve from 0.93710
+Epoch 108/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1812 - acc: 0.9524 - val_loss: 0.2397 - val_acc: 0.9331
+
+Epoch 00108: val_acc did not improve from 0.93710
+Epoch 109/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1800 - acc: 0.9536 - val_loss: 0.2340 - val_acc: 0.9345
+
+Epoch 00109: val_acc did not improve from 0.93710
+Epoch 110/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 85s 46ms/step - loss: 0.1805 - acc: 0.9533 - val_loss: 0.2286 - val_acc: 0.9369
+
+Epoch 00110: val_acc did not improve from 0.93710
+Epoch 111/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1782 - acc: 0.9538 - val_loss: 0.2322 - val_acc: 0.9355
+
+Epoch 00111: val_acc did not improve from 0.93710
+Epoch 112/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1787 - acc: 0.9536 - val_loss: 0.2308 - val_acc: 0.9349
+
+Epoch 00112: val_acc did not improve from 0.93710
+Epoch 113/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1771 - acc: 0.9541 - val_loss: 0.2267 - val_acc: 0.9375
+
+Epoch 00113: val_acc improved from 0.93710 to 0.93750, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.113.h5
+Epoch 114/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1756 - acc: 0.9539 - val_loss: 0.2286 - val_acc: 0.9376
+
+Epoch 00114: val_acc improved from 0.93750 to 0.93760, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.114.h5
+Epoch 115/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1728 - acc: 0.9557 - val_loss: 0.2287 - val_acc: 0.9364
+
+Epoch 00115: val_acc did not improve from 0.93760
+Epoch 116/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1742 - acc: 0.9550 - val_loss: 0.2235 - val_acc: 0.9382
+
+Epoch 00116: val_acc improved from 0.93760 to 0.93820, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.116.h5
+Epoch 117/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1740 - acc: 0.9542 - val_loss: 0.2297 - val_acc: 0.9350
+
+Epoch 00117: val_acc did not improve from 0.93820
+Epoch 118/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1726 - acc: 0.9546 - val_loss: 0.2257 - val_acc: 0.9390
+
+Epoch 00118: val_acc improved from 0.93820 to 0.93900, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.118.h5
+Epoch 119/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1741 - acc: 0.9544 - val_loss: 0.2304 - val_acc: 0.9375
+
+Epoch 00119: val_acc did not improve from 0.93900
+Epoch 120/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1709 - acc: 0.9548 - val_loss: 0.2262 - val_acc: 0.9371
+
+Epoch 00120: val_acc did not improve from 0.93900
+Epoch 121/200
+Learning rate:  0.0001
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1695 - acc: 0.9555 - val_loss: 0.2314 - val_acc: 0.9363
+
+Epoch 00121: val_acc did not improve from 0.93900
+Epoch 122/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 85s 46ms/step - loss: 0.1661 - acc: 0.9565 - val_loss: 0.2242 - val_acc: 0.9385
+
+Epoch 00122: val_acc did not improve from 0.93900
+Epoch 123/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1631 - acc: 0.9572 - val_loss: 0.2242 - val_acc: 0.9379
+
+Epoch 00123: val_acc did not improve from 0.93900
+Epoch 124/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 85s 46ms/step - loss: 0.1620 - acc: 0.9593 - val_loss: 0.2230 - val_acc: 0.9383
+
+Epoch 00124: val_acc did not improve from 0.93900
+Epoch 125/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1611 - acc: 0.9595 - val_loss: 0.2216 - val_acc: 0.9390
+
+Epoch 00125: val_acc did not improve from 0.93900
+Epoch 126/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1621 - acc: 0.9596 - val_loss: 0.2230 - val_acc: 0.9383
+
+Epoch 00126: val_acc did not improve from 0.93900
+Epoch 127/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1620 - acc: 0.9583 - val_loss: 0.2221 - val_acc: 0.9381
+
+Epoch 00127: val_acc did not improve from 0.93900
+Epoch 128/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1629 - acc: 0.9578 - val_loss: 0.2219 - val_acc: 0.9384
+
+Epoch 00128: val_acc did not improve from 0.93900
+Epoch 129/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1600 - acc: 0.9591 - val_loss: 0.2220 - val_acc: 0.9381
+
+Epoch 00129: val_acc did not improve from 0.93900
+Epoch 130/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1595 - acc: 0.9593 - val_loss: 0.2221 - val_acc: 0.9382
+
+Epoch 00130: val_acc did not improve from 0.93900
+Epoch 131/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1597 - acc: 0.9585 - val_loss: 0.2221 - val_acc: 0.9388
+
+Epoch 00131: val_acc did not improve from 0.93900
+Epoch 132/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1592 - acc: 0.9597 - val_loss: 0.2219 - val_acc: 0.9380
+
+Epoch 00132: val_acc did not improve from 0.93900
+Epoch 133/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1606 - acc: 0.9588 - val_loss: 0.2214 - val_acc: 0.9384
+
+Epoch 00133: val_acc did not improve from 0.93900
+Epoch 134/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 85s 46ms/step - loss: 0.1588 - acc: 0.9598 - val_loss: 0.2217 - val_acc: 0.9384
+
+Epoch 00134: val_acc did not improve from 0.93900
+Epoch 135/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1584 - acc: 0.9597 - val_loss: 0.2222 - val_acc: 0.9380
+
+Epoch 00135: val_acc did not improve from 0.93900
+Epoch 136/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1593 - acc: 0.9588 - val_loss: 0.2216 - val_acc: 0.9381
+
+Epoch 00136: val_acc did not improve from 0.93900
+Epoch 137/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1600 - acc: 0.9585 - val_loss: 0.2220 - val_acc: 0.9381
+
+Epoch 00137: val_acc did not improve from 0.93900
+Epoch 138/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1567 - acc: 0.9602 - val_loss: 0.2229 - val_acc: 0.9375
+
+Epoch 00138: val_acc did not improve from 0.93900
+Epoch 139/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1588 - acc: 0.9594 - val_loss: 0.2227 - val_acc: 0.9370
+
+Epoch 00139: val_acc did not improve from 0.93900
+Epoch 140/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1576 - acc: 0.9598 - val_loss: 0.2230 - val_acc: 0.9381
+
+Epoch 00140: val_acc did not improve from 0.93900
+Epoch 141/200
+Learning rate:  1e-05
+
+1875/1875 [==============================] - 87s 46ms/step - loss: 0.1575 - acc: 0.9603 - val_loss: 0.2215 - val_acc: 0.9385
+
+Epoch 00141: val_acc did not improve from 0.93900
+Epoch 142/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1593 - acc: 0.9589 - val_loss: 0.2217 - val_acc: 0.9374
+
+Epoch 00142: val_acc did not improve from 0.93900
+Epoch 143/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1568 - acc: 0.9604 - val_loss: 0.2220 - val_acc: 0.9377
+
+Epoch 00143: val_acc did not improve from 0.93900
+Epoch 144/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1584 - acc: 0.9597 - val_loss: 0.2209 - val_acc: 0.9391
+
+Epoch 00144: val_acc improved from 0.93900 to 0.93910, saving model to /home/ryan-desktop/Documents/research-2019/fashion-mnist/saved_models/Fuzzy-ResNet29v2-trial-2_model.144.h5
+Epoch 145/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1577 - acc: 0.9590 - val_loss: 0.2213 - val_acc: 0.9381
+
+Epoch 00145: val_acc did not improve from 0.93910
+Epoch 146/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1569 - acc: 0.9601 - val_loss: 0.2210 - val_acc: 0.9384
+
+Epoch 00146: val_acc did not improve from 0.93910
+Epoch 147/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1551 - acc: 0.9602 - val_loss: 0.2206 - val_acc: 0.9388
+
+Epoch 00147: val_acc did not improve from 0.93910
+Epoch 148/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1560 - acc: 0.9600 - val_loss: 0.2206 - val_acc: 0.9390
+
+Epoch 00148: val_acc did not improve from 0.93910
+Epoch 149/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1580 - acc: 0.9597 - val_loss: 0.2199 - val_acc: 0.9383
+
+Epoch 00149: val_acc did not improve from 0.93910
+Epoch 150/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1561 - acc: 0.9598 - val_loss: 0.2223 - val_acc: 0.9379
+
+Epoch 00150: val_acc did not improve from 0.93910
+Epoch 151/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1555 - acc: 0.9600 - val_loss: 0.2218 - val_acc: 0.9379
+
+Epoch 00151: val_acc did not improve from 0.93910
+Epoch 152/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1555 - acc: 0.9604 - val_loss: 0.2217 - val_acc: 0.9383
+
+Epoch 00152: val_acc did not improve from 0.93910
+Epoch 153/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1566 - acc: 0.9600 - val_loss: 0.2211 - val_acc: 0.9376
+
+Epoch 00153: val_acc did not improve from 0.93910
+Epoch 154/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1558 - acc: 0.9605 - val_loss: 0.2219 - val_acc: 0.9380
+
+Epoch 00154: val_acc did not improve from 0.93910
+Epoch 155/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1554 - acc: 0.9607 - val_loss: 0.2214 - val_acc: 0.9387
+
+Epoch 00155: val_acc did not improve from 0.93910
+Epoch 156/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1553 - acc: 0.9603 - val_loss: 0.2222 - val_acc: 0.9376
+
+Epoch 00156: val_acc did not improve from 0.93910
+Epoch 157/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1563 - acc: 0.9601 - val_loss: 0.2226 - val_acc: 0.9379
+
+Epoch 00157: val_acc did not improve from 0.93910
+Epoch 158/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1565 - acc: 0.9594 - val_loss: 0.2220 - val_acc: 0.9369
+
+Epoch 00158: val_acc did not improve from 0.93910
+Epoch 159/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1556 - acc: 0.9609 - val_loss: 0.2218 - val_acc: 0.9383
+
+Epoch 00159: val_acc did not improve from 0.93910
+Epoch 160/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1546 - acc: 0.9607 - val_loss: 0.2213 - val_acc: 0.9383
+
+Epoch 00160: val_acc did not improve from 0.93910
+Epoch 161/200
+Learning rate:  1e-05
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1540 - acc: 0.9606 - val_loss: 0.2210 - val_acc: 0.9384
+
+Epoch 00161: val_acc did not improve from 0.93910
+Epoch 162/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1532 - acc: 0.9610 - val_loss: 0.2214 - val_acc: 0.9379
+
+Epoch 00162: val_acc did not improve from 0.93910
+Epoch 163/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1541 - acc: 0.9609 - val_loss: 0.2212 - val_acc: 0.9382
+
+Epoch 00163: val_acc did not improve from 0.93910
+Epoch 164/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1534 - acc: 0.9608 - val_loss: 0.2211 - val_acc: 0.9387
+
+Epoch 00164: val_acc did not improve from 0.93910
+Epoch 165/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1550 - acc: 0.9611 - val_loss: 0.2207 - val_acc: 0.9382
+
+Epoch 00165: val_acc did not improve from 0.93910
+Epoch 166/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1533 - acc: 0.9614 - val_loss: 0.2213 - val_acc: 0.9381
+
+Epoch 00166: val_acc did not improve from 0.93910
+Epoch 167/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1542 - acc: 0.9608 - val_loss: 0.2210 - val_acc: 0.9383
+
+Epoch 00167: val_acc did not improve from 0.93910
+Epoch 168/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1531 - acc: 0.9607 - val_loss: 0.2216 - val_acc: 0.9385
+
+Epoch 00168: val_acc did not improve from 0.93910
+Epoch 169/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 87s 46ms/step - loss: 0.1536 - acc: 0.9620 - val_loss: 0.2210 - val_acc: 0.9382
+
+Epoch 00169: val_acc did not improve from 0.93910
+Epoch 170/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1529 - acc: 0.9613 - val_loss: 0.2218 - val_acc: 0.9380
+
+Epoch 00170: val_acc did not improve from 0.93910
+Epoch 171/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1523 - acc: 0.9615 - val_loss: 0.2214 - val_acc: 0.9384
+
+Epoch 00171: val_acc did not improve from 0.93910
+Epoch 172/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1551 - acc: 0.9603 - val_loss: 0.2212 - val_acc: 0.9380
+
+Epoch 00172: val_acc did not improve from 0.93910
+Epoch 173/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1526 - acc: 0.9618 - val_loss: 0.2213 - val_acc: 0.9382
+
+Epoch 00173: val_acc did not improve from 0.93910
+Epoch 174/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1541 - acc: 0.9606 - val_loss: 0.2210 - val_acc: 0.9380
+
+Epoch 00174: val_acc did not improve from 0.93910
+Epoch 175/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1541 - acc: 0.9609 - val_loss: 0.2212 - val_acc: 0.9380
+
+Epoch 00175: val_acc did not improve from 0.93910
+Epoch 176/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1532 - acc: 0.9610 - val_loss: 0.2211 - val_acc: 0.9385
+
+Epoch 00176: val_acc did not improve from 0.93910
+Epoch 177/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1541 - acc: 0.9604 - val_loss: 0.2215 - val_acc: 0.9385
+
+Epoch 00177: val_acc did not improve from 0.93910
+Epoch 178/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1557 - acc: 0.9606 - val_loss: 0.2212 - val_acc: 0.9381
+
+Epoch 00178: val_acc did not improve from 0.93910
+Epoch 179/200
+Learning rate:  1e-06
+
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1546 - acc: 0.9609 - val_loss: 0.2209 - val_acc: 0.9375
+
+Epoch 00179: val_acc did not improve from 0.93910
+Epoch 180/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1519 - acc: 0.9615 - val_loss: 0.2211 - val_acc: 0.9377
+
+Epoch 00180: val_acc did not improve from 0.93910
+Epoch 181/200
+Learning rate:  1e-06
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1540 - acc: 0.9601 - val_loss: 0.2212 - val_acc: 0.9381
+
+Epoch 00181: val_acc did not improve from 0.93910
+Epoch 182/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1518 - acc: 0.9617 - val_loss: 0.2214 - val_acc: 0.9383
+
+Epoch 00182: val_acc did not improve from 0.93910
+Epoch 183/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1530 - acc: 0.9613 - val_loss: 0.2210 - val_acc: 0.9384
+
+Epoch 00183: val_acc did not improve from 0.93910
+Epoch 184/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1537 - acc: 0.9607 - val_loss: 0.2215 - val_acc: 0.9383
+
+Epoch 00184: val_acc did not improve from 0.93910
+Epoch 185/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1529 - acc: 0.9620 - val_loss: 0.2209 - val_acc: 0.9384
+
+Epoch 00185: val_acc did not improve from 0.93910
+Epoch 186/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1539 - acc: 0.9604 - val_loss: 0.2212 - val_acc: 0.9385
+
+Epoch 00186: val_acc did not improve from 0.93910
+Epoch 187/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1547 - acc: 0.9608 - val_loss: 0.2209 - val_acc: 0.9386
+
+Epoch 00187: val_acc did not improve from 0.93910
+Epoch 188/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 85s 45ms/step - loss: 0.1526 - acc: 0.9621 - val_loss: 0.2210 - val_acc: 0.9380
+
+Epoch 00188: val_acc did not improve from 0.93910
+Epoch 189/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1540 - acc: 0.9597 - val_loss: 0.2214 - val_acc: 0.9383
+
+Epoch 00189: val_acc did not improve from 0.93910
+Epoch 190/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1529 - acc: 0.9613 - val_loss: 0.2217 - val_acc: 0.9377
+
+Epoch 00190: val_acc did not improve from 0.93910
+Epoch 191/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1526 - acc: 0.9618 - val_loss: 0.2213 - val_acc: 0.9381
+
+Epoch 00191: val_acc did not improve from 0.93910
+Epoch 192/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1537 - acc: 0.9608 - val_loss: 0.2213 - val_acc: 0.9384
+
+Epoch 00192: val_acc did not improve from 0.93910
+Epoch 193/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1519 - acc: 0.9615 - val_loss: 0.2214 - val_acc: 0.9384
+
+Epoch 00193: val_acc did not improve from 0.93910
+Epoch 194/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1539 - acc: 0.9608 - val_loss: 0.2217 - val_acc: 0.9381
+
+Epoch 00194: val_acc did not improve from 0.93910
+Epoch 195/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 85s 45ms/step - loss: 0.1530 - acc: 0.9609 - val_loss: 0.2218 - val_acc: 0.9378
+
+Epoch 00195: val_acc did not improve from 0.93910
+Epoch 196/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1528 - acc: 0.9617 - val_loss: 0.2206 - val_acc: 0.9381
+
+Epoch 00196: val_acc did not improve from 0.93910
+Epoch 197/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1533 - acc: 0.9608 - val_loss: 0.2212 - val_acc: 0.9385
+
+Epoch 00197: val_acc did not improve from 0.93910
+Epoch 198/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1531 - acc: 0.9612 - val_loss: 0.2211 - val_acc: 0.9380
+
+Epoch 00198: val_acc did not improve from 0.93910
+Epoch 199/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1529 - acc: 0.9617 - val_loss: 0.2213 - val_acc: 0.9386
+
+Epoch 00199: val_acc did not improve from 0.93910
+Epoch 200/200
+Learning rate:  5e-07
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1533 - acc: 0.9602 - val_loss: 0.2214 - val_acc: 0.9382
+
+Epoch 00200: val_acc did not improve from 0.93910

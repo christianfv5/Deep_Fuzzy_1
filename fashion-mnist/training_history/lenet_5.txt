@@ -1,0 +1,825 @@
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_7 (InputLayer)         (None, 28, 28, 1)         0         
+_________________________________________________________________
+conv2d_13 (Conv2D)           (None, 24, 24, 6)         156       
+_________________________________________________________________
+average_pooling2d_13 (Averag (None, 12, 12, 6)         0         
+_________________________________________________________________
+conv2d_14 (Conv2D)           (None, 8, 8, 16)          2416      
+_________________________________________________________________
+average_pooling2d_14 (Averag (None, 4, 4, 16)          0         
+_________________________________________________________________
+flatten_7 (Flatten)          (None, 256)               0         
+_________________________________________________________________
+dense_19 (Dense)             (None, 120)               30840     
+_________________________________________________________________
+dense_20 (Dense)             (None, 84)                10164     
+_________________________________________________________________
+dense_21 (Dense)             (None, 10)                850       
+=================================================================
+Total params: 44,426
+Trainable params: 44,426
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.7709 - acc: 0.7090 - val_loss: 0.5649 - val_acc: 0.7751
+
+Epoch 00001: val_acc improved from -inf to 0.77510, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.001.h5
+Epoch 2/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.5634 - acc: 0.7891 - val_loss: 0.4647 - val_acc: 0.8259
+
+Epoch 00002: val_acc improved from 0.77510 to 0.82590, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.002.h5
+Epoch 3/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.5035 - acc: 0.8113 - val_loss: 0.4241 - val_acc: 0.8440
+
+Epoch 00003: val_acc improved from 0.82590 to 0.84400, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.003.h5
+Epoch 4/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.4658 - acc: 0.8246 - val_loss: 0.4107 - val_acc: 0.8471
+
+Epoch 00004: val_acc improved from 0.84400 to 0.84710, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.004.h5
+Epoch 5/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.4415 - acc: 0.8343 - val_loss: 0.3790 - val_acc: 0.8596
+
+Epoch 00005: val_acc improved from 0.84710 to 0.85960, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.005.h5
+Epoch 6/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.4220 - acc: 0.8420 - val_loss: 0.3792 - val_acc: 0.8585
+
+Epoch 00006: val_acc did not improve from 0.85960
+Epoch 7/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.4045 - acc: 0.8498 - val_loss: 0.3629 - val_acc: 0.8643
+
+Epoch 00007: val_acc improved from 0.85960 to 0.86430, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.007.h5
+Epoch 8/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3936 - acc: 0.8538 - val_loss: 0.3549 - val_acc: 0.8703
+
+Epoch 00008: val_acc improved from 0.86430 to 0.87030, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.008.h5
+Epoch 9/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3850 - acc: 0.8573 - val_loss: 0.3512 - val_acc: 0.8677
+
+Epoch 00009: val_acc did not improve from 0.87030
+Epoch 10/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3758 - acc: 0.8596 - val_loss: 0.3416 - val_acc: 0.8731
+
+Epoch 00010: val_acc improved from 0.87030 to 0.87310, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.010.h5
+Epoch 11/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3710 - acc: 0.8606 - val_loss: 0.3338 - val_acc: 0.8762
+
+Epoch 00011: val_acc improved from 0.87310 to 0.87620, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.011.h5
+Epoch 12/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3613 - acc: 0.8647 - val_loss: 0.3399 - val_acc: 0.8750
+
+Epoch 00012: val_acc did not improve from 0.87620
+Epoch 13/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3593 - acc: 0.8655 - val_loss: 0.3426 - val_acc: 0.8714
+
+Epoch 00013: val_acc did not improve from 0.87620
+Epoch 14/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3503 - acc: 0.8673 - val_loss: 0.3393 - val_acc: 0.8748
+
+Epoch 00014: val_acc did not improve from 0.87620
+Epoch 15/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3481 - acc: 0.8700 - val_loss: 0.3250 - val_acc: 0.8808
+
+Epoch 00015: val_acc improved from 0.87620 to 0.88080, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.015.h5
+Epoch 16/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3440 - acc: 0.8719 - val_loss: 0.3162 - val_acc: 0.8847
+
+Epoch 00016: val_acc improved from 0.88080 to 0.88470, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.016.h5
+Epoch 17/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3396 - acc: 0.8726 - val_loss: 0.3329 - val_acc: 0.8755
+
+Epoch 00017: val_acc did not improve from 0.88470
+Epoch 18/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3377 - acc: 0.8719 - val_loss: 0.3152 - val_acc: 0.8840
+
+Epoch 00018: val_acc did not improve from 0.88470
+Epoch 19/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3350 - acc: 0.8748 - val_loss: 0.3089 - val_acc: 0.8873
+
+Epoch 00019: val_acc improved from 0.88470 to 0.88730, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.019.h5
+Epoch 20/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3295 - acc: 0.8771 - val_loss: 0.3180 - val_acc: 0.8859
+
+Epoch 00020: val_acc did not improve from 0.88730
+Epoch 21/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3270 - acc: 0.8782 - val_loss: 0.3250 - val_acc: 0.8805
+
+Epoch 00021: val_acc did not improve from 0.88730
+Epoch 22/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3239 - acc: 0.8788 - val_loss: 0.3114 - val_acc: 0.8869
+
+Epoch 00022: val_acc did not improve from 0.88730
+Epoch 23/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3220 - acc: 0.8794 - val_loss: 0.3089 - val_acc: 0.8848
+
+Epoch 00023: val_acc did not improve from 0.88730
+Epoch 24/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3207 - acc: 0.8794 - val_loss: 0.3089 - val_acc: 0.8851
+
+Epoch 00024: val_acc did not improve from 0.88730
+Epoch 25/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3198 - acc: 0.8798 - val_loss: 0.3089 - val_acc: 0.8878
+
+Epoch 00025: val_acc improved from 0.88730 to 0.88780, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.025.h5
+Epoch 26/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3168 - acc: 0.8824 - val_loss: 0.3098 - val_acc: 0.8871
+
+Epoch 00026: val_acc did not improve from 0.88780
+Epoch 27/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3148 - acc: 0.8819 - val_loss: 0.3204 - val_acc: 0.8833
+
+Epoch 00027: val_acc did not improve from 0.88780
+Epoch 28/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3110 - acc: 0.8816 - val_loss: 0.3037 - val_acc: 0.8898
+
+Epoch 00028: val_acc improved from 0.88780 to 0.88980, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.028.h5
+Epoch 29/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3098 - acc: 0.8829 - val_loss: 0.3034 - val_acc: 0.8888
+
+Epoch 00029: val_acc did not improve from 0.88980
+Epoch 30/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3086 - acc: 0.8836 - val_loss: 0.3071 - val_acc: 0.8878
+
+Epoch 00030: val_acc did not improve from 0.88980
+Epoch 31/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3058 - acc: 0.8858 - val_loss: 0.3051 - val_acc: 0.8862
+
+Epoch 00031: val_acc did not improve from 0.88980
+Epoch 32/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3084 - acc: 0.8843 - val_loss: 0.3054 - val_acc: 0.8857
+
+Epoch 00032: val_acc did not improve from 0.88980
+Epoch 33/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3056 - acc: 0.8862 - val_loss: 0.3263 - val_acc: 0.8812
+
+Epoch 00033: val_acc did not improve from 0.88980
+Epoch 34/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3038 - acc: 0.8858 - val_loss: 0.2966 - val_acc: 0.8908
+
+Epoch 00034: val_acc improved from 0.88980 to 0.89080, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.034.h5
+Epoch 35/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.3024 - acc: 0.8869 - val_loss: 0.2935 - val_acc: 0.8924
+
+Epoch 00035: val_acc improved from 0.89080 to 0.89240, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.035.h5
+Epoch 36/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2989 - acc: 0.8883 - val_loss: 0.3008 - val_acc: 0.8897
+
+Epoch 00036: val_acc did not improve from 0.89240
+Epoch 37/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2968 - acc: 0.8897 - val_loss: 0.3020 - val_acc: 0.8918
+
+Epoch 00037: val_acc did not improve from 0.89240
+Epoch 38/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2970 - acc: 0.8876 - val_loss: 0.2993 - val_acc: 0.8919
+
+Epoch 00038: val_acc did not improve from 0.89240
+Epoch 39/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2957 - acc: 0.8898 - val_loss: 0.3018 - val_acc: 0.8929
+
+Epoch 00039: val_acc improved from 0.89240 to 0.89290, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.039.h5
+Epoch 40/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2969 - acc: 0.8877 - val_loss: 0.3012 - val_acc: 0.8921
+
+Epoch 00040: val_acc did not improve from 0.89290
+Epoch 41/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2958 - acc: 0.8893 - val_loss: 0.2936 - val_acc: 0.8956
+
+Epoch 00041: val_acc improved from 0.89290 to 0.89560, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.041.h5
+Epoch 42/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2923 - acc: 0.8897 - val_loss: 0.3040 - val_acc: 0.8908
+
+Epoch 00042: val_acc did not improve from 0.89560
+Epoch 43/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2921 - acc: 0.8915 - val_loss: 0.2946 - val_acc: 0.8952
+
+Epoch 00043: val_acc did not improve from 0.89560
+Epoch 44/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2902 - acc: 0.8916 - val_loss: 0.3056 - val_acc: 0.8897
+
+Epoch 00044: val_acc did not improve from 0.89560
+Epoch 45/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2884 - acc: 0.8922 - val_loss: 0.2902 - val_acc: 0.8969
+
+Epoch 00045: val_acc improved from 0.89560 to 0.89690, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.045.h5
+Epoch 46/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2894 - acc: 0.8913 - val_loss: 0.3145 - val_acc: 0.8851
+
+Epoch 00046: val_acc did not improve from 0.89690
+Epoch 47/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2874 - acc: 0.8921 - val_loss: 0.2928 - val_acc: 0.8948
+
+Epoch 00047: val_acc did not improve from 0.89690
+Epoch 48/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2887 - acc: 0.8927 - val_loss: 0.2907 - val_acc: 0.8948
+
+Epoch 00048: val_acc did not improve from 0.89690
+Epoch 49/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2862 - acc: 0.8932 - val_loss: 0.3005 - val_acc: 0.8913
+
+Epoch 00049: val_acc did not improve from 0.89690
+Epoch 50/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2859 - acc: 0.8933 - val_loss: 0.2936 - val_acc: 0.8934
+
+Epoch 00050: val_acc did not improve from 0.89690
+Epoch 51/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2833 - acc: 0.8924 - val_loss: 0.3065 - val_acc: 0.8896
+
+Epoch 00051: val_acc did not improve from 0.89690
+Epoch 52/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2848 - acc: 0.8928 - val_loss: 0.2933 - val_acc: 0.8960
+
+Epoch 00052: val_acc did not improve from 0.89690
+Epoch 53/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2822 - acc: 0.8943 - val_loss: 0.2985 - val_acc: 0.8944
+
+Epoch 00053: val_acc did not improve from 0.89690
+Epoch 54/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2860 - acc: 0.8922 - val_loss: 0.2919 - val_acc: 0.8956
+
+Epoch 00054: val_acc did not improve from 0.89690
+Epoch 55/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2801 - acc: 0.8931 - val_loss: 0.2901 - val_acc: 0.8976
+
+Epoch 00055: val_acc improved from 0.89690 to 0.89760, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.055.h5
+Epoch 56/200
+1875/1875 [==============================] - 15s 8ms/step - loss: 0.2799 - acc: 0.8949 - val_loss: 0.2924 - val_acc: 0.8950
+
+Epoch 00056: val_acc did not improve from 0.89760
+Epoch 57/200
+1875/1875 [==============================] - 15s 8ms/step - loss: 0.2784 - acc: 0.8947 - val_loss: 0.2870 - val_acc: 0.8969
+
+Epoch 00057: val_acc did not improve from 0.89760
+Epoch 58/200
+1875/1875 [==============================] - 15s 8ms/step - loss: 0.2813 - acc: 0.8954 - val_loss: 0.2967 - val_acc: 0.8979
+
+Epoch 00058: val_acc improved from 0.89760 to 0.89790, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.058.h5
+Epoch 59/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2796 - acc: 0.8955 - val_loss: 0.2977 - val_acc: 0.8971
+
+Epoch 00059: val_acc did not improve from 0.89790
+Epoch 60/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2785 - acc: 0.8958 - val_loss: 0.3168 - val_acc: 0.8881
+
+Epoch 00060: val_acc did not improve from 0.89790
+Epoch 61/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2767 - acc: 0.8957 - val_loss: 0.2925 - val_acc: 0.8957
+
+Epoch 00061: val_acc did not improve from 0.89790
+Epoch 62/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2744 - acc: 0.8972 - val_loss: 0.2960 - val_acc: 0.8938
+
+Epoch 00062: val_acc did not improve from 0.89790
+Epoch 63/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2755 - acc: 0.8974 - val_loss: 0.2883 - val_acc: 0.8955
+
+Epoch 00063: val_acc did not improve from 0.89790
+Epoch 64/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2781 - acc: 0.8960 - val_loss: 0.2987 - val_acc: 0.8909
+
+Epoch 00064: val_acc did not improve from 0.89790
+Epoch 65/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2772 - acc: 0.8959 - val_loss: 0.2881 - val_acc: 0.8981
+
+Epoch 00065: val_acc improved from 0.89790 to 0.89810, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.065.h5
+Epoch 66/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2714 - acc: 0.8973 - val_loss: 0.2843 - val_acc: 0.8992
+
+Epoch 00066: val_acc improved from 0.89810 to 0.89920, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.066.h5
+Epoch 67/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2736 - acc: 0.8980 - val_loss: 0.2881 - val_acc: 0.8968
+
+Epoch 00067: val_acc did not improve from 0.89920
+Epoch 68/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2723 - acc: 0.8973 - val_loss: 0.2908 - val_acc: 0.8985
+
+Epoch 00068: val_acc did not improve from 0.89920
+Epoch 69/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2721 - acc: 0.8966 - val_loss: 0.2940 - val_acc: 0.8965
+
+Epoch 00069: val_acc did not improve from 0.89920
+Epoch 70/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2718 - acc: 0.8974 - val_loss: 0.2999 - val_acc: 0.8924
+
+Epoch 00070: val_acc did not improve from 0.89920
+Epoch 71/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2718 - acc: 0.8980 - val_loss: 0.2920 - val_acc: 0.8976
+
+Epoch 00071: val_acc did not improve from 0.89920
+Epoch 72/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2697 - acc: 0.8982 - val_loss: 0.3036 - val_acc: 0.8955
+
+Epoch 00072: val_acc did not improve from 0.89920
+Epoch 73/200
+1875/1875 [==============================] - 14s 7ms/step - loss: 0.2710 - acc: 0.8970 - val_loss: 0.2946 - val_acc: 0.8941
+
+Epoch 00073: val_acc did not improve from 0.89920
+Epoch 74/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2671 - acc: 0.9002 - val_loss: 0.2929 - val_acc: 0.8957
+
+Epoch 00074: val_acc did not improve from 0.89920
+Epoch 75/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2689 - acc: 0.8981 - val_loss: 0.3017 - val_acc: 0.8966
+
+Epoch 00075: val_acc did not improve from 0.89920
+Epoch 76/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2663 - acc: 0.8986 - val_loss: 0.3067 - val_acc: 0.8939
+
+Epoch 00076: val_acc did not improve from 0.89920
+Epoch 77/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2662 - acc: 0.9003 - val_loss: 0.3098 - val_acc: 0.8911
+
+Epoch 00077: val_acc did not improve from 0.89920
+Epoch 78/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2646 - acc: 0.9007 - val_loss: 0.2993 - val_acc: 0.8949
+
+Epoch 00078: val_acc did not improve from 0.89920
+Epoch 79/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2676 - acc: 0.8987 - val_loss: 0.3033 - val_acc: 0.8911
+
+Epoch 00079: val_acc did not improve from 0.89920
+Epoch 80/200
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.2680 - acc: 0.8994 - val_loss: 0.2908 - val_acc: 0.8947
+
+Epoch 00080: val_acc did not improve from 0.89920
+Epoch 81/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2634 - acc: 0.9010 - val_loss: 0.2949 - val_acc: 0.8971
+
+Epoch 00081: val_acc did not improve from 0.89920
+Epoch 82/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2662 - acc: 0.9002 - val_loss: 0.2828 - val_acc: 0.8997
+
+Epoch 00082: val_acc improved from 0.89920 to 0.89970, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.082.h5
+Epoch 83/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2666 - acc: 0.9000 - val_loss: 0.2910 - val_acc: 0.8962
+
+Epoch 00083: val_acc did not improve from 0.89970
+Epoch 84/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2627 - acc: 0.9005 - val_loss: 0.3008 - val_acc: 0.8964
+
+Epoch 00084: val_acc did not improve from 0.89970
+Epoch 85/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2637 - acc: 0.9010 - val_loss: 0.2838 - val_acc: 0.8998
+
+Epoch 00085: val_acc improved from 0.89970 to 0.89980, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.085.h5
+Epoch 86/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2632 - acc: 0.9005 - val_loss: 0.2971 - val_acc: 0.8972
+
+Epoch 00086: val_acc did not improve from 0.89980
+Epoch 87/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2632 - acc: 0.9015 - val_loss: 0.2918 - val_acc: 0.8984
+
+Epoch 00087: val_acc did not improve from 0.89980
+Epoch 88/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2605 - acc: 0.9014 - val_loss: 0.2855 - val_acc: 0.8984
+
+Epoch 00088: val_acc did not improve from 0.89980
+Epoch 89/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2588 - acc: 0.9032 - val_loss: 0.2868 - val_acc: 0.8981
+
+Epoch 00089: val_acc did not improve from 0.89980
+Epoch 90/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2606 - acc: 0.9012 - val_loss: 0.2925 - val_acc: 0.8993
+
+Epoch 00090: val_acc did not improve from 0.89980
+Epoch 91/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2588 - acc: 0.9037 - val_loss: 0.3166 - val_acc: 0.8925
+
+Epoch 00091: val_acc did not improve from 0.89980
+Epoch 92/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2596 - acc: 0.9033 - val_loss: 0.2905 - val_acc: 0.9001
+
+Epoch 00092: val_acc improved from 0.89980 to 0.90010, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.092.h5
+Epoch 93/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2608 - acc: 0.9019 - val_loss: 0.3110 - val_acc: 0.8946
+
+Epoch 00093: val_acc did not improve from 0.90010
+Epoch 94/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2583 - acc: 0.9023 - val_loss: 0.2816 - val_acc: 0.9015
+
+Epoch 00094: val_acc improved from 0.90010 to 0.90150, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.094.h5
+Epoch 95/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2557 - acc: 0.9041 - val_loss: 0.2987 - val_acc: 0.8952
+
+Epoch 00095: val_acc did not improve from 0.90150
+Epoch 96/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2594 - acc: 0.9007 - val_loss: 0.2876 - val_acc: 0.8985
+
+Epoch 00096: val_acc did not improve from 0.90150
+Epoch 97/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2586 - acc: 0.9024 - val_loss: 0.3020 - val_acc: 0.8937
+
+Epoch 00097: val_acc did not improve from 0.90150
+Epoch 98/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2580 - acc: 0.9021 - val_loss: 0.2962 - val_acc: 0.8959
+
+Epoch 00098: val_acc did not improve from 0.90150
+Epoch 99/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2555 - acc: 0.9052 - val_loss: 0.2828 - val_acc: 0.9029
+
+Epoch 00099: val_acc improved from 0.90150 to 0.90290, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.099.h5
+Epoch 100/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2552 - acc: 0.9053 - val_loss: 0.2904 - val_acc: 0.8992
+
+Epoch 00100: val_acc did not improve from 0.90290
+Epoch 101/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2566 - acc: 0.9037 - val_loss: 0.2953 - val_acc: 0.9000
+
+Epoch 00101: val_acc did not improve from 0.90290
+Epoch 102/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2577 - acc: 0.9029 - val_loss: 0.3026 - val_acc: 0.8982
+
+Epoch 00102: val_acc did not improve from 0.90290
+Epoch 103/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2566 - acc: 0.9035 - val_loss: 0.2855 - val_acc: 0.9013
+
+Epoch 00103: val_acc did not improve from 0.90290
+Epoch 104/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2587 - acc: 0.9034 - val_loss: 0.2978 - val_acc: 0.8962
+
+Epoch 00104: val_acc did not improve from 0.90290
+Epoch 105/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2554 - acc: 0.9025 - val_loss: 0.2870 - val_acc: 0.8996
+
+Epoch 00105: val_acc did not improve from 0.90290
+Epoch 106/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2573 - acc: 0.9030 - val_loss: 0.2925 - val_acc: 0.8983
+
+Epoch 00106: val_acc did not improve from 0.90290
+Epoch 107/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2556 - acc: 0.9042 - val_loss: 0.2890 - val_acc: 0.9030
+
+Epoch 00107: val_acc improved from 0.90290 to 0.90300, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.107.h5
+Epoch 108/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2549 - acc: 0.9037 - val_loss: 0.2875 - val_acc: 0.8994
+
+Epoch 00108: val_acc did not improve from 0.90300
+Epoch 109/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2539 - acc: 0.9047 - val_loss: 0.3035 - val_acc: 0.8947
+
+Epoch 00109: val_acc did not improve from 0.90300
+Epoch 110/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2562 - acc: 0.9035 - val_loss: 0.2845 - val_acc: 0.9020
+
+Epoch 00110: val_acc did not improve from 0.90300
+Epoch 111/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2529 - acc: 0.9037 - val_loss: 0.2864 - val_acc: 0.9010
+
+Epoch 00111: val_acc did not improve from 0.90300
+Epoch 112/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2547 - acc: 0.9045 - val_loss: 0.2814 - val_acc: 0.8996
+
+Epoch 00112: val_acc did not improve from 0.90300
+Epoch 113/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2527 - acc: 0.9059 - val_loss: 0.2896 - val_acc: 0.8976
+
+Epoch 00113: val_acc did not improve from 0.90300
+Epoch 114/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2523 - acc: 0.9057 - val_loss: 0.2903 - val_acc: 0.8977
+
+Epoch 00114: val_acc did not improve from 0.90300
+Epoch 115/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2538 - acc: 0.9037 - val_loss: 0.2850 - val_acc: 0.9020
+
+Epoch 00115: val_acc did not improve from 0.90300
+Epoch 116/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2539 - acc: 0.9052 - val_loss: 0.2842 - val_acc: 0.8966
+
+Epoch 00116: val_acc did not improve from 0.90300
+Epoch 117/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2493 - acc: 0.9060 - val_loss: 0.3011 - val_acc: 0.8902
+
+Epoch 00117: val_acc did not improve from 0.90300
+Epoch 118/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2535 - acc: 0.9045 - val_loss: 0.2881 - val_acc: 0.8977
+
+Epoch 00118: val_acc did not improve from 0.90300
+Epoch 119/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2523 - acc: 0.9054 - val_loss: 0.2797 - val_acc: 0.9046
+
+Epoch 00119: val_acc improved from 0.90300 to 0.90460, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.119.h5
+Epoch 120/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2535 - acc: 0.9035 - val_loss: 0.2815 - val_acc: 0.9016
+
+Epoch 00120: val_acc did not improve from 0.90460
+Epoch 121/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2509 - acc: 0.9053 - val_loss: 0.2792 - val_acc: 0.9001
+
+Epoch 00121: val_acc did not improve from 0.90460
+Epoch 122/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2510 - acc: 0.9053 - val_loss: 0.2953 - val_acc: 0.8971
+
+Epoch 00122: val_acc did not improve from 0.90460
+Epoch 123/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2500 - acc: 0.9055 - val_loss: 0.2914 - val_acc: 0.9000
+
+Epoch 00123: val_acc did not improve from 0.90460
+Epoch 124/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2523 - acc: 0.9049 - val_loss: 0.3049 - val_acc: 0.8988
+
+Epoch 00124: val_acc did not improve from 0.90460
+Epoch 125/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2519 - acc: 0.9051 - val_loss: 0.2882 - val_acc: 0.8995
+
+Epoch 00125: val_acc did not improve from 0.90460
+Epoch 126/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2506 - acc: 0.9069 - val_loss: 0.2870 - val_acc: 0.8989
+
+Epoch 00126: val_acc did not improve from 0.90460
+Epoch 127/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2477 - acc: 0.9072 - val_loss: 0.2946 - val_acc: 0.8994
+
+Epoch 00127: val_acc did not improve from 0.90460
+Epoch 128/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2479 - acc: 0.9072 - val_loss: 0.2845 - val_acc: 0.9017
+
+Epoch 00128: val_acc did not improve from 0.90460
+Epoch 129/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2480 - acc: 0.9064 - val_loss: 0.2804 - val_acc: 0.9012
+
+Epoch 00129: val_acc did not improve from 0.90460
+Epoch 130/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2470 - acc: 0.9063 - val_loss: 0.2939 - val_acc: 0.8938
+
+Epoch 00130: val_acc did not improve from 0.90460
+Epoch 131/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2508 - acc: 0.9057 - val_loss: 0.2901 - val_acc: 0.8954
+
+Epoch 00131: val_acc did not improve from 0.90460
+Epoch 132/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2497 - acc: 0.9062 - val_loss: 0.2855 - val_acc: 0.9003
+
+Epoch 00132: val_acc did not improve from 0.90460
+Epoch 133/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2494 - acc: 0.9058 - val_loss: 0.3000 - val_acc: 0.8985
+
+Epoch 00133: val_acc did not improve from 0.90460
+Epoch 134/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2455 - acc: 0.9075 - val_loss: 0.2795 - val_acc: 0.9048
+
+Epoch 00134: val_acc improved from 0.90460 to 0.90480, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.134.h5
+Epoch 135/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2481 - acc: 0.9061 - val_loss: 0.2896 - val_acc: 0.9012
+
+Epoch 00135: val_acc did not improve from 0.90480
+Epoch 136/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2468 - acc: 0.9062 - val_loss: 0.2899 - val_acc: 0.8994
+
+Epoch 00136: val_acc did not improve from 0.90480
+Epoch 137/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2435 - acc: 0.9083 - val_loss: 0.2957 - val_acc: 0.8972
+
+Epoch 00137: val_acc did not improve from 0.90480
+Epoch 138/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2465 - acc: 0.9062 - val_loss: 0.2894 - val_acc: 0.8978
+
+Epoch 00138: val_acc did not improve from 0.90480
+Epoch 139/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2451 - acc: 0.9073 - val_loss: 0.2944 - val_acc: 0.9003
+
+Epoch 00139: val_acc did not improve from 0.90480
+Epoch 140/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2460 - acc: 0.9073 - val_loss: 0.2761 - val_acc: 0.9071
+
+Epoch 00140: val_acc improved from 0.90480 to 0.90710, saving model to C:\Users\Ryan\Downloads\fmnist-resnet\saved_models\LeNet-trial4_model.140.h5
+Epoch 141/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2471 - acc: 0.9065 - val_loss: 0.2865 - val_acc: 0.8999
+
+Epoch 00141: val_acc did not improve from 0.90710
+Epoch 142/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2447 - acc: 0.9076 - val_loss: 0.2910 - val_acc: 0.9001
+
+Epoch 00142: val_acc did not improve from 0.90710
+Epoch 143/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2455 - acc: 0.9079 - val_loss: 0.2963 - val_acc: 0.8979
+
+Epoch 00143: val_acc did not improve from 0.90710
+Epoch 144/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2442 - acc: 0.9080 - val_loss: 0.2797 - val_acc: 0.8995
+
+Epoch 00144: val_acc did not improve from 0.90710
+Epoch 145/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2445 - acc: 0.9076 - val_loss: 0.2967 - val_acc: 0.8952
+
+Epoch 00145: val_acc did not improve from 0.90710
+Epoch 146/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2441 - acc: 0.9067 - val_loss: 0.2790 - val_acc: 0.9021
+
+Epoch 00146: val_acc did not improve from 0.90710
+Epoch 147/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2438 - acc: 0.9079 - val_loss: 0.3009 - val_acc: 0.8971
+
+Epoch 00147: val_acc did not improve from 0.90710
+Epoch 148/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2417 - acc: 0.9095 - val_loss: 0.2922 - val_acc: 0.8982
+
+Epoch 00148: val_acc did not improve from 0.90710
+Epoch 149/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2459 - acc: 0.9079 - val_loss: 0.2952 - val_acc: 0.8981
+
+Epoch 00149: val_acc did not improve from 0.90710
+Epoch 150/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2438 - acc: 0.9077 - val_loss: 0.2816 - val_acc: 0.9052
+
+Epoch 00150: val_acc did not improve from 0.90710
+Epoch 151/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2429 - acc: 0.9086 - val_loss: 0.2924 - val_acc: 0.9000
+
+Epoch 00151: val_acc did not improve from 0.90710
+Epoch 152/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2449 - acc: 0.9070 - val_loss: 0.2903 - val_acc: 0.9031
+
+Epoch 00152: val_acc did not improve from 0.90710
+Epoch 153/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2438 - acc: 0.9075 - val_loss: 0.2808 - val_acc: 0.8998
+
+Epoch 00153: val_acc did not improve from 0.90710
+Epoch 154/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2457 - acc: 0.9053 - val_loss: 0.2867 - val_acc: 0.8995
+
+Epoch 00154: val_acc did not improve from 0.90710
+Epoch 155/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2440 - acc: 0.9077 - val_loss: 0.2995 - val_acc: 0.8966
+
+Epoch 00155: val_acc did not improve from 0.90710
+Epoch 156/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2413 - acc: 0.9084 - val_loss: 0.2843 - val_acc: 0.9037
+
+Epoch 00156: val_acc did not improve from 0.90710
+Epoch 157/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2437 - acc: 0.9092 - val_loss: 0.2837 - val_acc: 0.9020
+
+Epoch 00157: val_acc did not improve from 0.90710
+Epoch 158/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2416 - acc: 0.9087 - val_loss: 0.2798 - val_acc: 0.9033
+
+Epoch 00158: val_acc did not improve from 0.90710
+Epoch 159/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2411 - acc: 0.9093 - val_loss: 0.2903 - val_acc: 0.8985
+
+Epoch 00159: val_acc did not improve from 0.90710
+Epoch 160/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2403 - acc: 0.9095 - val_loss: 0.3029 - val_acc: 0.8955
+
+Epoch 00160: val_acc did not improve from 0.90710
+Epoch 161/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2407 - acc: 0.9093 - val_loss: 0.2945 - val_acc: 0.9006
+
+Epoch 00161: val_acc did not improve from 0.90710
+Epoch 162/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2419 - acc: 0.9085 - val_loss: 0.2817 - val_acc: 0.9023
+
+Epoch 00162: val_acc did not improve from 0.90710
+Epoch 163/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2393 - acc: 0.9091 - val_loss: 0.2884 - val_acc: 0.9029
+
+Epoch 00163: val_acc did not improve from 0.90710
+Epoch 164/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2398 - acc: 0.9098 - val_loss: 0.2758 - val_acc: 0.9044
+
+Epoch 00164: val_acc did not improve from 0.90710
+Epoch 165/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2446 - acc: 0.9074 - val_loss: 0.2942 - val_acc: 0.8972
+
+Epoch 00165: val_acc did not improve from 0.90710
+Epoch 166/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2424 - acc: 0.9091 - val_loss: 0.2859 - val_acc: 0.8984
+
+Epoch 00166: val_acc did not improve from 0.90710
+Epoch 167/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2406 - acc: 0.9097 - val_loss: 0.2882 - val_acc: 0.9016
+
+Epoch 00167: val_acc did not improve from 0.90710
+Epoch 168/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2421 - acc: 0.9083 - val_loss: 0.2859 - val_acc: 0.8997
+
+Epoch 00168: val_acc did not improve from 0.90710
+Epoch 169/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2402 - acc: 0.9091 - val_loss: 0.2847 - val_acc: 0.9045
+
+Epoch 00169: val_acc did not improve from 0.90710
+Epoch 170/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2398 - acc: 0.9102 - val_loss: 0.2999 - val_acc: 0.9012
+
+Epoch 00170: val_acc did not improve from 0.90710
+Epoch 171/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2385 - acc: 0.9095 - val_loss: 0.3021 - val_acc: 0.8962
+
+Epoch 00171: val_acc did not improve from 0.90710
+Epoch 172/200
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.2381 - acc: 0.9105 - val_loss: 0.2887 - val_acc: 0.8991
+
+Epoch 00172: val_acc did not improve from 0.90710
+Epoch 173/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2417 - acc: 0.9090 - val_loss: 0.2832 - val_acc: 0.9043
+
+Epoch 00173: val_acc did not improve from 0.90710
+Epoch 174/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2394 - acc: 0.9100 - val_loss: 0.2859 - val_acc: 0.9040
+
+Epoch 00174: val_acc did not improve from 0.90710
+Epoch 175/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2372 - acc: 0.9100 - val_loss: 0.2912 - val_acc: 0.9002
+
+Epoch 00175: val_acc did not improve from 0.90710
+Epoch 176/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2414 - acc: 0.9097 - val_loss: 0.2844 - val_acc: 0.8999
+
+Epoch 00176: val_acc did not improve from 0.90710
+Epoch 177/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2385 - acc: 0.9099 - val_loss: 0.2870 - val_acc: 0.9008
+
+Epoch 00177: val_acc did not improve from 0.90710
+Epoch 178/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2402 - acc: 0.9092 - val_loss: 0.2793 - val_acc: 0.9040
+
+Epoch 00178: val_acc did not improve from 0.90710
+Epoch 179/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2393 - acc: 0.9106 - val_loss: 0.2893 - val_acc: 0.8979
+
+Epoch 00179: val_acc did not improve from 0.90710
+Epoch 180/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2377 - acc: 0.9091 - val_loss: 0.2868 - val_acc: 0.9001
+
+Epoch 00180: val_acc did not improve from 0.90710
+Epoch 181/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2376 - acc: 0.9110 - val_loss: 0.2919 - val_acc: 0.9005
+
+Epoch 00181: val_acc did not improve from 0.90710
+Epoch 182/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2389 - acc: 0.9088 - val_loss: 0.2803 - val_acc: 0.9052
+
+Epoch 00182: val_acc did not improve from 0.90710
+Epoch 183/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2393 - acc: 0.9095 - val_loss: 0.2846 - val_acc: 0.9011
+
+Epoch 00183: val_acc did not improve from 0.90710
+Epoch 184/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2406 - acc: 0.9090 - val_loss: 0.2825 - val_acc: 0.9029
+
+Epoch 00184: val_acc did not improve from 0.90710
+Epoch 185/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2363 - acc: 0.9114 - val_loss: 0.2953 - val_acc: 0.8982
+
+Epoch 00185: val_acc did not improve from 0.90710
+Epoch 186/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2382 - acc: 0.9094 - val_loss: 0.3032 - val_acc: 0.8956
+
+Epoch 00186: val_acc did not improve from 0.90710
+Epoch 187/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2384 - acc: 0.9105 - val_loss: 0.2934 - val_acc: 0.9009
+
+Epoch 00187: val_acc did not improve from 0.90710
+Epoch 188/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2390 - acc: 0.9096 - val_loss: 0.2809 - val_acc: 0.9070
+
+Epoch 00188: val_acc did not improve from 0.90710
+Epoch 189/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2371 - acc: 0.9106 - val_loss: 0.2884 - val_acc: 0.9029
+
+Epoch 00189: val_acc did not improve from 0.90710
+Epoch 190/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2410 - acc: 0.9101 - val_loss: 0.2827 - val_acc: 0.9022
+
+Epoch 00190: val_acc did not improve from 0.90710
+Epoch 191/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2381 - acc: 0.9097 - val_loss: 0.2906 - val_acc: 0.9011
+
+Epoch 00191: val_acc did not improve from 0.90710
+Epoch 192/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2366 - acc: 0.9101 - val_loss: 0.2873 - val_acc: 0.9040
+
+Epoch 00192: val_acc did not improve from 0.90710
+Epoch 193/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2396 - acc: 0.9104 - val_loss: 0.2972 - val_acc: 0.8981
+
+Epoch 00193: val_acc did not improve from 0.90710
+Epoch 194/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2402 - acc: 0.9095 - val_loss: 0.2915 - val_acc: 0.9005
+
+Epoch 00194: val_acc did not improve from 0.90710
+Epoch 195/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2390 - acc: 0.9098 - val_loss: 0.2859 - val_acc: 0.9036
+
+Epoch 00195: val_acc did not improve from 0.90710
+Epoch 196/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2395 - acc: 0.9097 - val_loss: 0.2925 - val_acc: 0.9011
+
+Epoch 00196: val_acc did not improve from 0.90710
+Epoch 197/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2379 - acc: 0.9104 - val_loss: 0.2995 - val_acc: 0.8959
+
+Epoch 00197: val_acc did not improve from 0.90710
+Epoch 198/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2353 - acc: 0.9122 - val_loss: 0.2936 - val_acc: 0.9005
+
+Epoch 00198: val_acc did not improve from 0.90710
+Epoch 199/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2345 - acc: 0.9117 - val_loss: 0.3100 - val_acc: 0.8969
+
+Epoch 00199: val_acc did not improve from 0.90710
+Epoch 200/200
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.2368 - acc: 0.9101 - val_loss: 0.2888 - val_acc: 0.9011
+
+Epoch 00200: val_acc did not improve from 0.90710

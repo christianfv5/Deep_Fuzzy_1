@@ -7,7 +7,10 @@ reports/
 */data/
 */figures/
 */csv/
-*/__pycache__/
+*__pycache__/
 
 # notebook check points
 .ipynb_checkpoints/
+
+#zip files
+*.zip
